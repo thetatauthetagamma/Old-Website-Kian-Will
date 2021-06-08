@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Theta Tau - Theta Gamma</title>
-    </head>
 
-    <body>
-        <div>
-            Main text
-        </div>
-    </body>
+<head>
+    <!-- semantic ui requires jquery first -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <!-- we are hosting on github pages, so must use CDN to include semantic ui for this page
+        (aka cannot depend on server to have a libary installed) -->
+    <!-- another option is to download this CSS file and include it (more work but faster on each HTTP req) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <title>Theta Tau - Theta Gamma</title>
+</head>
+
+<body>
+    <h1 class="ui header">main text</h1>
+</body>
 
 </html>
