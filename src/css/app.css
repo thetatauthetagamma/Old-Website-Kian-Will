@@ -1,0 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    padding: 0px;
+}
+
+.nav {
+    background-color: lightblue;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4vh;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
