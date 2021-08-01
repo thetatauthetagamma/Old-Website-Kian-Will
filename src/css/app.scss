@@ -4,13 +4,9 @@ html {
     padding: 0px;
 }
 
-.nav {
-    background-color: lightblue;
-    height: 7vh;
+.content-wrapper {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 4vh;
+    flex-direction: column;
 }
 
 body {

@@ -26,7 +26,7 @@ export default function Rush() {
 
     return(
         <React.Fragment>
-            <div>
+            <div className="home-info">
                 <h4>
                     <b>
                         THE PURPOSE OF THETA TAU IS TO DEVELOP AND MAINTAIN A HIGH STANDARD

@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Link
 } from 'react-router-dom';
-import './css/app.css'
+import './css/nav.scss'
 
 export default function Navbar() {
     return (

@@ -4,7 +4,7 @@ import {
 	Switch,
 	Route
 } from 'react-router-dom';
-import './css/app.css'
+import './css/app.scss'
 
 import Navbar from './Navbar'
 import Footer from './components/Footer'
@@ -17,33 +17,35 @@ function App() {
     return (
         <React.Fragment>
             <Router>
-                <Navbar />
+                <div className="content-wrapper">
+                    <Navbar />
 
-                <Switch>
+                    <Switch>
 
-                    {/* FAQ Page */}
-                    <Route path="/faq">
-                        <FAQ />
-                    </Route>
+                        {/* FAQ Page */}
+                        <Route path="/faq">
+                            <FAQ />
+                        </Route>
 
-                    {/* Rush Page */}
-                    <Route path="/rush">
-                        <Rush />
-                    </Route>
+                        {/* Rush Page */}
+                        <Route path="/rush">
+                            <Rush />
+                        </Route>
 
-                    {/* Members Page */}
-                    <Route path="/members">
-                        <Members />
-                    </Route>
+                        {/* Members Page */}
+                        <Route path="/members">
+                            <Members />
+                        </Route>
 
-                    {/* Home Page */}
-                    <Route path="/">
-                        <Home />
-                    </Route>
+                        {/* Home Page */}
+                        <Route path="/">
+                            <Home />
+                        </Route>
 
-                </Switch>
+                    </Switch>
 
-                <Footer />
+                    <Footer />
+                </div>
             </Router>
         </React.Fragment>
     );

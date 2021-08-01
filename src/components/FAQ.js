@@ -3,7 +3,7 @@ import React from "react";
 export default function FAQ() {
     return(
         <React.Fragment>
-            <div>
+            <div className="home-info">
                 <h1> FAQ </h1>
 
                 <h3 className="faq-question"> What are fraternities and sororities? </h3>

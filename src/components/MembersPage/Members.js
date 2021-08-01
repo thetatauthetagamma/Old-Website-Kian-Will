@@ -3,7 +3,7 @@ import React from "react";
 export default function Members() {
     return(
         <React.Fragment>
-            <div>
+            <div className="home-info">
                 <div>
                     <h1>Members</h1>
 

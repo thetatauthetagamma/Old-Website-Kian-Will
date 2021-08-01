@@ -1,19 +1,17 @@
 import React from "react";
 import BLM from './BLM'
-import '../../css/home.css';
+import '../../css/home.scss';
 
 export default function Home(props) {
     return(
         <React.Fragment>
-            <BLM />
-
-            <br />
-            <br />
-            <hr />
-
             <div className="home-info">
-                <div>
-                    <h3 className="home-about">About</h3>
+                <BLM />
+
+                <div className="home-gradient" />
+
+                <div className="home-about-container">
+                    <h3 className="home-about">About Us</h3>
 
                     <p>
                         Theta Tau is a Professional Engineering Fraternity. As a group, we
