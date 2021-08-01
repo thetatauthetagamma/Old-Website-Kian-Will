@@ -1,37 +1,51 @@
 import React from 'react';
 import {
     BrowserRouter as Router,
-	Link,
 	Switch,
 	Route
 } from 'react-router-dom';
-import Navbar from './Navbar'
 import './css/app.css'
+
+import Navbar from './Navbar'
+import Footer from './components/Footer'
+import Home from './components/HomePage/Home'
+import Rush from './components/RushPage/Rush'
+import Members from './components/MembersPage/Members'
+import FAQ from './components/FAQ'
 
 function App() {
     return (
-        <Router>
-            <Switch>
+        <React.Fragment>
+            <Router>
+                <Navbar />
 
-                {/* FAQ Page */}
-                <Route path="/faq">
-                    <Navbar />
-                    FAQ Page
-                </Route>
+                <Switch>
 
-                {/* Members Page */}
-                <Route path="/members">
-                    <Navbar />
-                    Members Page
-                </Route>
+                    {/* FAQ Page */}
+                    <Route path="/faq">
+                        <FAQ />
+                    </Route>
 
-                {/* Home Page */}
-                <Route path="/">
-                    <Navbar />
-                    Home Page
-                </Route>
-            </Switch>
-        </Router>
+                    {/* Rush Page */}
+                    <Route path="/rush">
+                        <Rush />
+                    </Route>
+
+                    {/* Members Page */}
+                    <Route path="/members">
+                        <Members />
+                    </Route>
+
+                    {/* Home Page */}
+                    <Route path="/">
+                        <Home />
+                    </Route>
+
+                </Switch>
+
+                <Footer />
+            </Router>
+        </React.Fragment>
     );
 }
 

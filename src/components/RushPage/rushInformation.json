@@ -1,0 +1,10 @@
+{
+    "activeRush": false,
+    "rushEvents": [
+        {
+            "name": "Sample Event",
+            "date": "August 30, 2021",
+            "description": "This is the description"
+        }
+    ]
+}

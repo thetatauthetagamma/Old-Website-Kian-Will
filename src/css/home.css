@@ -1,0 +1,9 @@
+.home-info, .blm-info {
+    width: 95%;
+    margin: auto;
+}
+
+.home-about, .blm-title {
+    font-size: xx-large;
+    text-align: center;
+}

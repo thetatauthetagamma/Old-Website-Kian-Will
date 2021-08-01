@@ -17,3 +17,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+.navbar-link {
+    text-decoration: none;
+}
