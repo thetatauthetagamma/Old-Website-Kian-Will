@@ -1,9 +1,10 @@
 import React from "react";
+import '../../css/members.scss';
 
 export default function Members() {
     return(
         <React.Fragment>
-            <div className="home-info">
+            <div className="container">
                 <div>
                     <h1>Members</h1>
 

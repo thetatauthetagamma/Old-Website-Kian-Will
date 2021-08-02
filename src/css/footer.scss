@@ -1,11 +1,23 @@
 .ReactModal__Content {
-    height: fit-content
+    position: initial;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5vh;
 }
 
 .contact-container {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.contact-header {
+    margin: 0px;
+    padding: 1%;
+    background-color: #d7be69;
+    border: solid 2px black;
+    font-size: 3em;
+    text-align: center;
 }
 
 .contact-text {
@@ -24,6 +36,15 @@
     display: flex;
     justify-content: end;
     align-items: center;
+}
+
+.contact-body {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    padding-bottom: 1vh;
 }
 
 .footer-text {

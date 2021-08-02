@@ -1,0 +1,19 @@
+.home-info {
+    width: 100%;
+    min-height: 90vh;
+    margin: auto;
+}
+
+.home-about-container {
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1vh;
+}
