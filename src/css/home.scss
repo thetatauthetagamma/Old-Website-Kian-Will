@@ -1,6 +1,6 @@
 .home-gradient {
     height: 5vh;
-    background-image: linear-gradient(to bottom, black, white);
+    background-image: linear-gradient(to top, black, white);
 }
 
 .blm-container {
@@ -47,4 +47,25 @@
 
 .blm-signature {
     margin-bottom: 0px;
+}
+
+.home-info {
+    width: 100%;
+    min-height: 90vh;
+    margin: auto;
+}
+
+.about-container {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1vh;
 }

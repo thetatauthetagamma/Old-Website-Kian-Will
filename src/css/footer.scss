@@ -1,3 +1,16 @@
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
 .ReactModal__Content {
     position: initial;
     height: fit-content;
@@ -28,6 +41,20 @@
     cursor: pointer;
 }
 
+.contact-message {
+    margin: 2%;
+    text-align: center;
+}
+
+.contact-body {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3em;
+    padding-bottom: 1vh;
+}
+
 .footer-container {
     justify-self: flex-end;
     width: 100%;
@@ -38,17 +65,9 @@
     align-items: center;
 }
 
-.contact-body {
-    border: solid 2px black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5em;
-    padding-bottom: 1vh;
-}
-
 .footer-text {
     width: 99%;
+    font-size: 2vh;
     text-align: right;
     cursor: pointer;
     color: white;

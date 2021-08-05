@@ -8,8 +8,7 @@ import './css/app.scss'
 
 import Navbar from './Navbar';
 import Footer from './components/Footer';
-import BLM from './components/HomePage/BLM';
-import About from './components/About';
+import Home from './components/HomePage/Home';
 import Rush from './components/RushPage/Rush';
 import Members from './components/MembersPage/Members';
 import FAQ from './components/FAQ';
@@ -37,14 +36,9 @@ function App() {
                             <Members />
                         </Route>
 
-                        {/* Home Page */}
-                        <Route path="/about">
-                            <About />
-                        </Route>
-
                         {/* BLM Page */}
                         <Route path="/">
-                            <BLM />
+                            <Home />
                         </Route>
                     </Switch>
 

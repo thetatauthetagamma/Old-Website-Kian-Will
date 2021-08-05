@@ -12,6 +12,7 @@ export default function Footer() {
                 isOpen={showModal}
                 shouldCloseOnEsc={true}
                 shouldCloseOnOverlayClick={true}
+                closeTimeoutMS={400}
                 style={{content: {
                     padding: 0,
                     width: "75vw",
@@ -22,7 +23,7 @@ export default function Footer() {
                         <h1 className="contact-header">Contact Us</h1>
 
                         <div className="contact-body">
-                            <p>If you wish to send us a message, feel free to contact us through one of our emails: </p>
+                            <p className="contact-message">If you wish to send us a message, feel free to contact us through one of our emails: </p>
 
                             <div>
                                 <ul>
@@ -48,6 +49,7 @@ export default function Footer() {
                     </div>
                 </div>
             </Modal>
+
             <div className="footer-container">
                 <a className="footer-text" onClick={() => {
                     setShowModal(true);
