@@ -1,9 +1,26 @@
 {
     "activeRush": false,
+    "rushSemester": "Fall",
+    "rushYear": "2021",
     "rushEvents": [
         {
-            "name": "Sample Event",
+            "name": "Sample Event 1",
             "date": "August 30, 2021",
+            "description": "This is the description"
+        },
+        {
+            "name": "Sample Event 2",
+            "date": "August 31, 2021",
+            "description": "This is the description"
+        },
+        {
+            "name": "Sample Event 3",
+            "date": "September 1, 2021",
+            "description": "This is the description"
+        },
+        {
+            "name": "Sample Event 4",
+            "date": "September 2, 2021",
             "description": "This is the description"
         }
     ]

@@ -1,12 +1,38 @@
 .nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     background-color: #701217;
     height: 7vh;
+    z-index: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 4vh;
+    font-size: 4.5vmin;
+    border-top: solid 1px #701217;
+    border-bottom: solid 1px #701217;
+}
+
+.nav-link-container:hover {
+    background-color: white;
+    color: #701217;
+    text-decoration: none;
 }
 
 .navbar-link {
+    padding: 0vw 1vw;
+    max-width: 20vw;
+    width: fit-content;
+    height: 7vh;
     color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-link:hover {
+    background-color: white;
+    color: #701217;
+    text-decoration: none;
 }

@@ -1,5 +1,5 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     width: 100vw;
     padding: 0px;
 }
@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 7vh 0px 0px 0px;
 }
 
 .navbar-link {
@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    width: 95%;
+    width: 95vw;
     min-height: 90vh;
     margin: auto;
 }

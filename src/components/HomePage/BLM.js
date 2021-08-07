@@ -37,7 +37,7 @@ export default function BLM(props) {
                             country and our communities.
                         </p>
 
-                        <hr />
+                        <hr style={{width: "90%", margin: "auto", height: "2px", background: "#FFFFFF"}}/>
 
                         <div className="blm-info">
                             <b className="blm-info-title">We do not want these words to be an empty gesture. As a fraternity, we are committed to changes in: </b>

@@ -62,10 +62,16 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+
+    p {
+        margin: 0px 10px;
+        font-size: 2.3vh;
+        margin-bottom: 3vh;
+    }
 }
 
 .about-header {
-    font-size: 3em;
+    font-size: 8vh;
     text-align: center;
-    margin-top: 1vh;
+    margin: 1vh 0px;
 }
