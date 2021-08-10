@@ -10,8 +10,7 @@ html {
 }
 
 body {
-    margin: 0px;
-    padding: 7vh 0px 0px 0px;
+    padding-top: 70px;
 }
 
 .navbar-link {
@@ -23,8 +22,12 @@ body {
     font-weight: bold;
 }
 
-.container {
-    width: 95vw;
-    min-height: 90vh;
-    margin: auto;
+.header {
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 2.2vh;
+}
+
+.content-text {
+    font-size: 1.4em;
 }

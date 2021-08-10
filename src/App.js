@@ -7,7 +7,6 @@ import {
 import './css/app.scss'
 
 import Navbar from './Navbar';
-import Footer from './components/Footer';
 import Home from './components/HomePage/Home';
 import Rush from './components/RushPage/Rush';
 import Members from './components/MembersPage/Members';
@@ -42,7 +41,7 @@ function App() {
                         </Route>
                     </Switch>
                     
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             </Router>
         </React.Fragment>

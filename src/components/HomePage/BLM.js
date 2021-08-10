@@ -12,24 +12,24 @@ export default function BLM(props) {
             opacity: 1,
             "margin-top": 0
         },
-        config: {duration: 1250}
+        config: {duration: 1000}
     });
 
     return(
         <React.Fragment>
-            <div style={{backgroundColor: "black"}}>
-                <div className="blm-container">
+            <div className="blm" style={{backgroundColor: "black"}}>
+                <div className="container">
                     <animated.div style={fadeIn}>
-                        <h1 className="blm-title">Black Lives Matter.</h1>
+                        <h1 className="header" style={{textAlign: "center"}}>Black Lives Matter.</h1>
 
-                        <p className="blm-text">
+                        <p className="content-text">
                             The Theta Tau Theta Gamma chapter at the University of Michigan is outraged
                             by the deaths of George Floyd, Breonna Taylor, and countless other Black Americans
                             who have lost their lives to police brutality. These are just the newest examples
                             of how racism and bigotry are deeply embedded in many aspects of our society.
                         </p>
 
-                        <p className="blm-text">
+                        <p className="content-text">
                             As a brotherhood of many races, religions, sexualities, and other diverse identities,
                             we have always felt that promoting inclusion in the field of engineering is essential
                             to our mission. However, as we listen to the outrage and pain that the Black community
@@ -37,11 +37,10 @@ export default function BLM(props) {
                             country and our communities.
                         </p>
 
-                        <hr style={{width: "90%", margin: "auto", height: "2px", background: "#FFFFFF"}}/>
+                        <hr style={{width: "90%", margin: "3vh auto", height: "2px", background: "#FFFFFF"}}/>
 
                         <div className="blm-info">
                             <b className="blm-info-title">We do not want these words to be an empty gesture. As a fraternity, we are committed to changes in: </b>
-                            <br />
                             <br />
                             <div>
                                 <b>Education for our brothers.</b>

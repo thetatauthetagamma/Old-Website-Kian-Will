@@ -1,3 +1,30 @@
+.rush {
+    .container-fluid {
+        padding: 0px;
+    }
+
+    .tht-purpose {
+        padding: 5vh 15vw;
+        background-color: #883a3a;
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .alert {
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
+
+
+
+
+
+
+
+
 .tht-purpose-container {
     display: flex;
     flex-direction: row;
@@ -16,24 +43,6 @@
     hr {
         border: 1.5px solid black;
         background-color: black;
-    }
-}
-
-.tht-purpose {
-    margin: 1vw 18vw;
-    text-align: center;
-    font-size: 1.4vmin;
-}
-
-@media only screen and (min-width: 768px) {
-    .tht-purpose-text-border {
-        display: block;
-    }
-
-    .tht-purpose {
-        margin: 1vh 0.1vw;
-        text-align: center;
-        font-size: 1.4vmax;
     }
 }
 
@@ -105,15 +114,4 @@
     .event-3 {
         background-color: #D1F3FF;
     }
-}
-
-.norush-container {
-    margin-top: 10vh;
-    margin-bottom: 2vmin;
-    font-size: 150%;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 3vmin;
-    border-radius: 10px;
-    background-color: #add8e6;
 }
