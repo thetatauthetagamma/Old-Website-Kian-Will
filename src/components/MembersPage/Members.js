@@ -6,9 +6,9 @@ export default function Members() {
         <React.Fragment>
             <div className="container">
                 <div>
-                    <h1>Members</h1>
+                    <h1 className="header" style={{textAlign: "center"}}>Members</h1>
 
-                    <p>
+                    <p className="content-text">
                         When you ask someone why they joined Theta Tau, you'll probably get a diverse
                         set of answers. Some join because they seek professional growth. Others join
                         to meet more engineers in their major and across disciplines. Some are attracted
@@ -16,7 +16,7 @@ export default function Members() {
                         largest Professional Engineering Fraternity in the country.
                     </p>
 
-                    <p>
+                    <p className="content-text">
                         However, when you ask someone why they stayed, and continue to participate in
                         the Fraternity, you'll likely ever hear one answer. <b>It's the people</b>.
                         Among all other things, it's the people, their values and their culture that
@@ -25,8 +25,6 @@ export default function Members() {
                         the most diverse and extraordinary engineers you will ever meet. These people
                         are going places.
                     </p>
-
-                    <p><b> Get to know them.</b></p>
                 </div>
 
             </div>

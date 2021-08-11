@@ -4,7 +4,7 @@ export default function FAQ() {
     return(
         <React.Fragment>
             <div className="container">
-                <h1> FAQ </h1>
+                <h1 className="header" style={{textAlign: "center"}}> FAQ </h1>
 
                 <h3 className="faq-question"> What are fraternities and sororities? </h3>
                 <p>

@@ -52,9 +52,9 @@ export default function Rush() {
                     <br />
 
                     <animated.div className="container" style={fadeIn}>
-                        <h1 className="brother-info-title"> What does it mean to be a Brother of Theta Tau? </h1>
+                        <h1 className="header"> What does it mean to be a Brother of Theta&nbsp;Tau? </h1>
 
-                        <p className="brother-info-text">
+                        <p className="content-text">
                             Theta Tau is first and foremost a <b>brotherhood</b> of engineers. Being
                             a brother of Theta Tau means that you have a community of brilliant men AND
                             women not only on campus, but across the country that will see you as family.
@@ -63,7 +63,7 @@ export default function Rush() {
                             and social life.
                         </p>
 
-                        <p className="brother-info-text">
+                        <p className="content-text">
                             This network is a support structure that you can rely on in the face of struggles
                             that you will face in your college career. Being a brother means being part of
                             a community that you can depend on beyond the campus and throughout your life.
@@ -76,7 +76,7 @@ export default function Rush() {
 
                         { rushInformation['activeRush'] ?
                             <div className="rush-container">
-                                <b className="rush-welcome">
+                                <b className="header">
                                     Come join us for our {rushInformation["rushSemester"]}&nbsp;
                                     {rushInformation["rushYear"]} rush!
                                 </b>

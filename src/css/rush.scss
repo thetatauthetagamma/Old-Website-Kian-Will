@@ -16,46 +16,15 @@
         text-align: center;
         margin-top: 5vh;
     }
-}
 
-
-
-
-
-
-
-
-.tht-purpose-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    padding: 2vh 0;
-    background-color: #d7be69;
-}
-
-.tht-purpose-text-border {
-    display: none;
-    width: 20vw;
-    padding: 0px 0.5vw;
-
-    hr {
-        border: 1.5px solid black;
-        background-color: black;
+    .header {
+        text-align: center;
     }
 }
 
-.brother-info-title {
-    margin-top: 0px;
-    font-size: 2.5vmax;
-    font-weight: bolder;
-    text-align: center;
-}
 
-.brother-info-text {
-    font-size: 1.1vmax;
-}
+
+
 
 .rush-container {
     display: flex;
