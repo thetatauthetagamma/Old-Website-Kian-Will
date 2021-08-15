@@ -11,7 +11,7 @@ export default function Home(props) {
         to: {
             opacity: 1,
         },
-        config: {duration: 1000}
+        config: {duration: 750}
     });
 
     return(

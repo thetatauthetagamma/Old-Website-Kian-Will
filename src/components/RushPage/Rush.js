@@ -35,7 +35,7 @@ export default function Rush() {
         to: {
             opacity: 1,
         },
-        config: {duration: 1000}
+        config: {duration: 750}
     });
 
 

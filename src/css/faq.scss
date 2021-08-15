@@ -1,0 +1,21 @@
+.faq-btn {
+    text-decoration: none;
+    color: #dd5a5a;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.faq-btn:hover {
+    text-decoration: none;
+    color: #dd5a5a;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.card-body {
+    padding: 1rem 2rem;
+    font-size: 1.1em;
+}

@@ -1,10 +1,21 @@
 import React from "react";
+import { useSpring, animated } from 'react-spring';
 import '../../css/members.scss';
 
 export default function Members() {
+    const fadeIn = useSpring({
+        from: {
+            opacity: 0,
+        },
+        to: {
+            opacity: 1,
+        },
+        config: {duration: 750}
+    });
+    
     return(
         <React.Fragment>
-            <div className="container">
+            <animated.div className="container" style={fadeIn}>
                 <div>
                     <h1 className="header" style={{textAlign: "center"}}>Members</h1>
 
@@ -27,7 +38,7 @@ export default function Members() {
                     </p>
                 </div>
 
-            </div>
+            </animated.div>
         </React.Fragment>
     )
 }
