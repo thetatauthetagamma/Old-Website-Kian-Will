@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import '../../css/members.scss';
+import { LinkedListNode, Profile } from '../../components/utils.js'
 
 export default function Members() {
     const fadeIn = useSpring({
@@ -12,7 +13,67 @@ export default function Members() {
         },
         config: {duration: 750}
     });
-    
+
+    const [founders, setFounders] = useState(new Set());
+    const [userNodes, setUserNodes] = useState({});
+
+    const getLineageData=()=>{
+      fetch('./profile.json'
+      ,{
+        headers : {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+         }
+      }
+      )
+        .then(function(response){
+          console.log(response)
+          return response.json();
+        })
+        .then(function(myJson) {
+          console.log(myJson);
+          let tempFounders = new Set()
+          let tempUserNodes = {}
+
+          for (let index in myJson) {
+            let entry = myJson[index];
+            if (entry["biguserid"] == "") {
+              let currUserId = entry["userid"];
+              let currUserNode = new LinkedListNode(entry, null, currUserId);
+              tempFounders.add(currUserId);
+              tempUserNodes[currUserId] = currUserNode;
+              continue;
+            }
+
+            let bigUserId = entry["biguserid"];
+            let littleUserId = entry["userid"];
+
+            let currBigNode = tempUserNodes[bigUserId];
+            if (currBigNode === undefined) {
+              currBigNode = new LinkedListNode(null, null, bigUserId);
+              tempUserNodes[bigUserId] = currBigNode;
+            }
+
+            let currLittleNode = new LinkedListNode(null, null, littleUserId);
+            currLittleNode.prevNode = currBigNode;
+            tempUserNodes[bigUserId] = currBigNode;
+            currBigNode.addNextNode(currLittleNode);
+          }
+          console.log(tempFounders);
+          console.log(tempUserNodes);
+          setFounders(tempFounders);
+          setUserNodes(tempUserNodes);
+        });
+    }
+
+    useEffect(() => {
+      getLineageData();
+    }, []);
+
+    const displayData=()=>{
+      // TODO: Figure out how to display data with map
+    }
+
     return(
         <React.Fragment>
             <animated.div className="container" style={fadeIn}>
@@ -39,6 +100,11 @@ export default function Members() {
                 </div>
 
             </animated.div>
+
+            <div>
+
+
+            </div>
         </React.Fragment>
     )
 }
