@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    HashRouter,
     BrowserRouter as Router,
 	Switch,
 	Route,
@@ -15,7 +16,7 @@ import FAQ from './components/FAQ';
 function App() {
     return (
         <React.Fragment>
-            <Router>
+            <HashRouter>
                 <div className="content-wrapper">
                     <Navbar />
 
@@ -43,7 +44,7 @@ function App() {
                     
                     {/* <Footer /> */}
                 </div>
-            </Router>
+            </HashRouter>
         </React.Fragment>
     );
 }
