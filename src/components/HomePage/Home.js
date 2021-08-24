@@ -16,7 +16,7 @@ export default function Home(props) {
 
     return(
         <React.Fragment>
-            <div
+            {/* <div
                 id="home-carousel"
                 class="carousel slide"
                 data-ride="carousel"
@@ -31,7 +31,7 @@ export default function Home(props) {
                         <img class="d-block w-100" src="..." alt="Second slide" />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="about-container" style={{backgroundColor: "white"}}>
                 <animated.div className="container" style={fadeIn}>
                     <h1 className="header">About Us</h1>
