@@ -21,7 +21,8 @@
         flex-direction: column;
     
         .blm-info-title {
-            font-size: 1.6em;
+            font-size: 1.9em;
+            font-weight: bold;
             text-align: center;
         }
     }
@@ -37,5 +38,17 @@
 
     .content-text {
         margin: 0px 0px 3vh 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .blm {
+        .blm-info {
+            .blm-info-title {
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
     }
 }

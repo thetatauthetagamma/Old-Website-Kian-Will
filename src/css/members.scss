@@ -1,6 +1,38 @@
 .members-container {
-    width: 95%;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
+    padding: 0px;
+}
+
+.picture {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.picture-text {
+    color: white;
+    font-size: 10em;
+    opacity: .9;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 575px) {
+    .members-picture-container {
+        .picture {
+            width: 100vw;
+            height: 30vh;
+            object-fit: cover;
+        }
+
+        .picture-text {
+            color: white;
+            font-size: 3em;
+            position: absolute;
+            top: 46%;
+            left: 50%;
+            transform: translate(-50%, -375%);
+        }
+    }
 }

@@ -20,7 +20,7 @@ export default function BLM(props) {
             <div className="blm" style={{backgroundColor: "black"}}>
                 <div className="container">
                     <animated.div style={fadeIn}>
-                        <h1 className="header" style={{textAlign: "center"}}>Black Lives Matter.</h1>
+                        <h1 className="header" style={{textAlign: "center"}}>Black&nbsp;Lives&nbsp;Matter.</h1>
 
                         <p className="content-text">
                             The Theta Tau Theta Gamma chapter at the University of Michigan is outraged
@@ -40,7 +40,9 @@ export default function BLM(props) {
                         <hr style={{width: "90%", margin: "3vh auto", height: "2px", background: "#FFFFFF"}}/>
 
                         <div className="blm-info">
-                            <b className="blm-info-title">We do not want these words to be an empty gesture. As a fraternity, we are committed to changes in: </b>
+                            <h2 className="blm-info-title">
+                                We do not want these words to be an empty gesture. As&nbsp;a&nbsp;fraternity, we are committed to changes in:
+                            </h2>
                             <br />
                             <div>
                                 <b>Education for our brothers.</b>

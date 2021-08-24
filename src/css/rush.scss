@@ -22,9 +22,28 @@
     }
 }
 
-
-
-
+@media screen and (max-width: 575px) {
+    .rush {
+        .tht-purpose {
+            margin-bottom: 0px;
+            padding: 2vh 5vw;
+            background-color: #883a3a;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+        }
+    
+        .alert {
+            text-align: center;
+            margin-top: 5vh;
+        }
+    
+        .header {
+            text-align: center;
+        }
+    }
+}
 
 .rush-container {
     display: flex;

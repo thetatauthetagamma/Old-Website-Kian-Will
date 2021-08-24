@@ -1,13 +1,30 @@
+.faq-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 100vw;
+}
+
+.vertical-column {
+    width: 10vw;
+    background-color: #883a3a;
+    height: inherit;
+}
+
+.faq-info-container {
+    width: 80vw;
+}
+
 .faq-btn {
     text-decoration: none;
-    color: #dd5a5a;
+    color: black;
     font-size: 1.1em;
     font-weight: bold;
 }
 
 .faq-btn:hover {
     text-decoration: none;
-    color: #dd5a5a;
+    color: rgb(107, 107, 107);
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -15,7 +32,23 @@
     box-shadow: none;
 }
 
+.card-header {
+    text-align: left;
+}
+
 .card-body {
     padding: 1rem 2rem;
     font-size: 1.1em;
+}
+
+@media screen and (max-width: 575px) {
+    .vertical-column {
+        width: 5vw;
+        background-color: #883a3a;
+        height: inherit;
+    }
+
+    .faq-info-container {
+        width: 90vw;
+    }
 }
