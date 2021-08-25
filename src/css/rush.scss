@@ -33,12 +33,12 @@
             font-weight: bold;
             text-align: center;
         }
-    
+
         .alert {
             text-align: center;
             margin-top: 5vh;
         }
-    
+
         .header {
             text-align: center;
         }
@@ -75,7 +75,10 @@
     justify-content: center;
     align-items: center;
 
-    .event-0, .event-1, .event-2, .event-3 {
+    .event-0,
+    .event-1,
+    .event-2,
+    .event-3 {
         box-sizing: border-box;
         border-radius: 10px;
         padding: 5vh 3vw;
@@ -88,18 +91,18 @@
     }
 
     .event-0 {
-        background-color: #F4D1FF;
+        background-color: #f4d1ff;
     }
 
     .event-1 {
-        background-color: #FFDDD1;
+        background-color: #ffddd1;
     }
 
     .event-2 {
-        background-color: #DCFFD1;
+        background-color: #dcffd1;
     }
 
     .event-3 {
-        background-color: #D1F3FF;
+        background-color: #d1f3ff;
     }
 }

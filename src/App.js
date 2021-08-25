@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 import {
     HashRouter,
     BrowserRouter as Router,
-	Switch,
-	Route,
-} from 'react-router-dom';
-import './css/app.scss'
-
-import Navbar from './Navbar';
-import Home from './components/HomePage/Home';
-import Rush from './components/RushPage/Rush';
-import Members from './components/MembersPage/Members';
-import FAQ from './components/FAQ';
+    Switch,
+    Route,
+} from "react-router-dom";
+import "./css/app.scss";
+import Footer from "./components/Footer";
+import Navbar from "./Navbar";
+import Home from "./components/HomePage/Home";
+import Rush from "./components/RushPage/Rush";
+import Members from "./components/MembersPage/Members";
+import FAQ from "./components/FAQ";
 
 function App() {
     return (
@@ -41,8 +41,8 @@ function App() {
                             <Home />
                         </Route>
                     </Switch>
-                    
-                    {/* <Footer /> */}
+
+                    <Footer />
                 </div>
             </HashRouter>
         </React.Fragment>

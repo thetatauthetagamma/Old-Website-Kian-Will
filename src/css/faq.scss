@@ -16,6 +16,7 @@
 }
 
 .faq-btn {
+    text-align: left;
     text-decoration: none;
     color: black;
     font-size: 1.1em;
@@ -27,7 +28,8 @@
     color: rgb(107, 107, 107);
 }
 
-.btn-check:focus+.btn, .btn:focus {
+.btn-check:focus + .btn,
+.btn:focus {
     outline: 0;
     box-shadow: none;
 }

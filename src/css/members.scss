@@ -2,6 +2,12 @@
     padding: 0px;
 }
 
+.members-picture-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .picture {
     width: 100vw;
     height: 80vh;
@@ -10,8 +16,8 @@
 
 .picture-text {
     color: white;
-    font-size: 10em;
-    opacity: .9;
+    font-size: 8em;
+    opacity: 0.9;
     position: absolute;
     top: 46%;
     left: 50%;
@@ -22,17 +28,12 @@
     .members-picture-container {
         .picture {
             width: 100vw;
-            height: 30vh;
+            height: 40vh;
             object-fit: cover;
         }
 
         .picture-text {
-            color: white;
-            font-size: 3em;
-            position: absolute;
-            top: 46%;
-            left: 50%;
-            transform: translate(-50%, -375%);
+            font-size: 6em;
         }
     }
 }
