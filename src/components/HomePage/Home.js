@@ -1,6 +1,12 @@
 import React from "react";
 import BLM from "./BLM";
 import { useSpring, animated } from "react-spring";
+import slide1 from "../../pictures/home/Slide1.jpg";
+import slide2 from "../../pictures/home/Slide2.JPG";
+import slide3 from "../../pictures/home/Slide3.png";
+import slide4 from "../../pictures/home/Slide4.png";
+import slide5 from "../../pictures/home/Slide5.jpg";
+import slide6 from "../../pictures/home/Slide6.JPG";
 import "../../css/home.scss";
 
 export default function Home(props) {
@@ -16,22 +22,64 @@ export default function Home(props) {
 
     return (
         <React.Fragment>
-            {/* <div
-                id="home-carousel"
-                class="carousel slide"
-                data-ride="carousel"
-                pause="false"
-                keyboard="false"
-            >
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="..." alt="First slide" />
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Second slide" />
+            <div className="home-carousel-container">
+                <div
+                    id="home-carousel"
+                    className="carousel slide carousel-fade"
+                    data-interval="6000"
+                    data-ride="carousel"
+                    data-pause={false}
+                    data-keyboard={false}
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide1}
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide2}
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide3}
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item active home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide4}
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide5}
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item home-pictures">
+                            <img
+                                class="d-block w-100"
+                                src={slide6}
+                                alt="Second slide"
+                            />
+                        </div>
                     </div>
                 </div>
-            </div> */}
+                <h1 className="carousel-text">
+                    Theta&nbsp;Tau at the University&nbsp;of&nbsp;Michigan
+                </h1>
+            </div>
             <div
                 className="about-container"
                 style={{ backgroundColor: "white" }}

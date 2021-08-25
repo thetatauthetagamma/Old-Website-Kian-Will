@@ -41,7 +41,45 @@
     }
 }
 
+.home-carousel-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+.home-pictures {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-text {
+    z-index: 1;
+    color: white;
+    font-size: 8em;
+    opacity: 0.8;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 575px) {
+    .home-carousel-container {
+        margin-bottom: 0;
+
+        .home-pictures {
+            width: 100vw;
+            height: 40vh;
+            object-fit: cover;
+        }
+
+        .carousel-text {
+            font-size: 3em;
+        }
+    }
+
     .blm {
         .blm-info {
             .blm-info-title {
