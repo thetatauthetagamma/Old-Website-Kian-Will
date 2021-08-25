@@ -42,3 +42,36 @@
 .bi {
     margin: 0 1vw;
 }
+
+.vertical {
+    border: 0.2px solid black;
+    height: 3vh;
+}
+
+@media screen and (max-width: 575px) {
+    .footer-container {
+        padding: 0;
+    }
+
+    .contact-links {
+        flex-direction: column;
+
+        .vertical {
+            display: none;
+        }
+    }
+
+    .contact {
+        line-height: 1;
+    }
+
+    .contact-email {
+        font-size: 0.75em;
+        color: black;
+        text-decoration: none;
+    }
+
+    .bi {
+        margin: 0 2vw;
+    }
+}

@@ -15,10 +15,10 @@ export default function Footer() {
                                     className="contact-email"
                                     href="mailto:tht-regents@umich.edu"
                                 >
-                                    Regent / Vice Regent
+                                    Regent&nbsp;/&nbsp;Vice Regent
                                 </a>
                             </div>
-                            |
+                            <div className="vertical" />
                             <div className="contact">
                                 <a
                                     className="contact-email"
@@ -27,16 +27,16 @@ export default function Footer() {
                                     Executive Board
                                 </a>
                             </div>
-                            |
+                            <div className="vertical" />
                             <div className="contact">
                                 <a
                                     className="contact-email"
                                     href="mailto:tht-corsec@umich.edu"
                                 >
-                                    Alumni / Interchapter Relations
+                                    Alumni&nbsp;/&nbsp;Interchapter Relations
                                 </a>
                             </div>
-                            |
+                            <div className="vertical" />
                             <div className="contact">
                                 <a
                                     className="contact-email"

@@ -18,6 +18,7 @@
     }
 
     .header {
+        word-wrap: balance;
         text-align: center;
     }
 }
@@ -25,11 +26,11 @@
 @media screen and (max-width: 575px) {
     .rush {
         .tht-purpose {
-            margin-bottom: 0px;
+            margin-bottom: 1vh;
             padding: 2vh 5vw;
             background-color: #883a3a;
             color: white;
-            font-size: 1em;
+            font-size: 0.9em;
             font-weight: bold;
             text-align: center;
         }
@@ -41,6 +42,10 @@
 
         .header {
             text-align: center;
+        }
+
+        .no-rush-alert {
+            font-size: 0.9em;
         }
     }
 }

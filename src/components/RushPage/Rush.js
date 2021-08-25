@@ -49,12 +49,9 @@ export default function Rush() {
                         FELLOWSHIP.
                     </animated.h4>
 
-                    <br />
-
                     <animated.div className="container" style={fadeIn}>
                         <h1 className="header">
-                            {" "}
-                            What does it mean to be a Brother of Theta&nbsp;Tau?{" "}
+                            What does it mean to be a Brother of Theta&nbsp;Tau?
                         </h1>
 
                         <p className="content-text">
@@ -96,7 +93,7 @@ export default function Rush() {
                             </div>
                         ) : (
                             <div className="alert alert-info">
-                                <b>
+                                <b className="no-rush-alert">
                                     Unfortunately, our rush season has ended for
                                     the current semester.
                                     <br />
