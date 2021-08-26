@@ -89,9 +89,9 @@ export default function FAQ() {
                             >
                                 <div class="card-body">
                                     Theta Tau is a Co-ed Professional
-                                    Engineering Fraternity. This makes us a
-                                    "Professional" fraternity, which means we
-                                    value the professional development and
+                                    Engineering Fraternity. This makes us a{" "}
+                                    <i>professional</i> fraternity, which means
+                                    we value the professional development and
                                     conduct of our members more than a social
                                     fraternity might. We are also composed of
                                     members that have an interest in
@@ -162,7 +162,7 @@ export default function FAQ() {
                                     <strong>
                                         absolutely do not tolerate hazing
                                     </strong>
-                                    . For that matter, we are also a "dry"
+                                    . For that matter, we are also a <i>dry</i>{" "}
                                     fraternity, and do not spend money on
                                     alcohol nor do we permit alcohol at our
                                     events, including Rush Events. We uphold a
