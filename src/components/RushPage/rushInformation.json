@@ -6,14 +6,14 @@
         {
             "name": "Central Campus Info Session",
             "date": "September 3 @ 4:30 - 6:30 pm",
-            "location": "TBD",
-            "description": "Come learn about Theta Tau at our Central Campus Info Session!  Pizza and soda provided~"
+            "location": "Union - Keunzel Room",
+            "description": "Come learn about Theta Tau at our Central Campus Info Session! You are not required to go to both info sessions."
         },
         {
             "name": "North Campus Info Session",
             "date": "September 5 @ 4:00 - 6:00 pm",
-            "location": "TBD",
-            "description": "Come learn about Theta Tau at our North Campus Info Session!  Pizza and soda provided~"
+            "location": "Beyster 1670",
+            "description": "Come learn about Theta Tau at our North Campus Info Session! You are not required to go to both info sessions."
         },
         {
             "name": "Cider & Donuts",
@@ -22,11 +22,17 @@
             "description": "Enjoy cider and donuts while meeting brothers!"
         },
         {
-            "name": "Professional Development Presentation",
+            "name": "Professional Development Overview",
             "date": "September 9 @ 7:00 - 9:00 pm",
-            "location": "TBD",
+            "location": "Beyster 1670",
             "description": "Come meet our professional development panel and learn about Theta Tau's professional benefits!  Bring your resume for critiquing~",
             "dress_code": "Business Casual"
+        },
+        {
+            "name": "Philanthropy Event",
+            "date": "September 11 @ 11:00 am - 12:30 pm",
+            "location": "TBD",
+            "description": "Learn about Theta Tau's Philanthropy Committee through a hands-on philanthropy event!"
         }
     ]
 }

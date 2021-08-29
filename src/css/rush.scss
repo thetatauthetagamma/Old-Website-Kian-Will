@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: clamp(.5rem, 5vw, 1.5rem);
     .event-0,
     .event-1,
     .event-2,
