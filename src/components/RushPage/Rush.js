@@ -15,6 +15,12 @@ export default function Rush() {
                             <h4>{event["name"]}</h4>
 
                             <h4>{event["date"]}</h4>
+
+                            <h4>Location: {event["location"]}</h4>
+
+                            {event["dress_code"] ? (
+                                <h4>Dress Code: {event["dress_code"]}</h4>
+                            ) : null}
                         </div>
 
                         <div className="rush-description">

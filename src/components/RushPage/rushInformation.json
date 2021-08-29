@@ -1,27 +1,32 @@
 {
-    "activeRush": false,
+    "activeRush": true,
     "rushSemester": "Fall",
     "rushYear": "2021",
     "rushEvents": [
         {
-            "name": "Sample Event 1",
-            "date": "August 30, 2021",
-            "description": "This is the description"
+            "name": "Central Campus Info Session",
+            "date": "September 3 @ 4:30 - 6:30 pm",
+            "location": "TBD",
+            "description": "Come learn about Theta Tau at our Central Campus Info Session!  Pizza and soda provided~"
         },
         {
-            "name": "Sample Event 2",
-            "date": "August 31, 2021",
-            "description": "This is the description"
+            "name": "North Campus Info Session",
+            "date": "September 5 @ 4:00 - 6:00 pm",
+            "location": "TBD",
+            "description": "Come learn about Theta Tau at our North Campus Info Session!  Pizza and soda provided~"
         },
         {
-            "name": "Sample Event 3",
-            "date": "September 1, 2021",
-            "description": "This is the description"
+            "name": "Cider & Donuts",
+            "date": "September 7 @ 6:00 - 8:00 pm",
+            "location": "Palmer Field",
+            "description": "Enjoy cider and donuts while meeting brothers!"
         },
         {
-            "name": "Sample Event 4",
-            "date": "September 2, 2021",
-            "description": "This is the description"
+            "name": "Professional Development Presentation",
+            "date": "September 9 @ 7:00 - 9:00 pm",
+            "location": "TBD",
+            "description": "Come meet our professional development panel and learn about Theta Tau's professional benefits!  Bring your resume for critiquing~",
+            "dress_code": "Business Casual"
         }
     ]
 }

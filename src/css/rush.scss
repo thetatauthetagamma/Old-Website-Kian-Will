@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 3em;
     .event-0,
     .event-1,
     .event-2,
@@ -92,6 +92,7 @@
 
         h4 {
             margin: 0px;
+            // font-size: 2em;
         }
     }
 
