@@ -1,5 +1,6 @@
 import React from "react";
 import rushInformation from "./rushInformation.json";
+import rush_card from "./photos/rush_banner.jpg";
 import { useSpring, animated } from "react-spring";
 import "../../css/rush.scss";
 
@@ -94,6 +95,15 @@ export default function Rush() {
                                     &nbsp;
                                     {rushInformation["rushYear"]} rush!
                                 </b>
+
+                                <h3><a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
+                                    Click here to fill out our interest form
+                                </a></h3>
+
+                                <img src={rush_card}></img>
+                                
+                                <h1>Rush Chairs</h1>
+                                <h4>Madi Rose, Alyssa Shapiro, Joe Singh, Dana Suchara, Jake Yeaman</h4>
 
                                 <div className="rush-events">{rushEvents}</div>
                             </div>
