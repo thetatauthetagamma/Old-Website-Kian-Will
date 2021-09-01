@@ -103,7 +103,7 @@ export default function Rush() {
                                 <img className="rush-card" src={rush_card} alt="rush_card"></img>
                                 
                                 <h1 className="responsive-header">Rush Chairs</h1>
-                                <h4 className="rush-chairs">Madi Rose, Alyssa Shapiro, Joe Singh, Dana Suchara, Jake Yeaman</h4>
+                                <h4 className="rush-chairs">Madi&nbsp;Rose, Alyssa&nbsp;Shapiro, Joe&nbsp;Singh, Dana&nbsp;Suchara, Jake&nbsp;Yeaman</h4>
 
                                 <div className="rush-events">{rushEvents}</div>
                             </div>
