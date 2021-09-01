@@ -2,38 +2,13 @@ import React from "react";
 import rushInformation from "./rushInformation.json";
 import rush_card from "./photos/rush_banner.jpg";
 import { useSpring, animated } from "react-spring";
+import moment from "moment";
 import "../../css/rush.scss";
 
 export default function Rush() {
     let rushEvents = [];
     let eventNumber = 0;
-    if (rushInformation["activeRush"]) {
-        rushInformation["rushEvents"].map((event) => {
-            rushEvents.push(
-                <div className="rush-event-card">
-                    <div className={`event-${eventNumber}`}>
-                        <div className="rush-title">
-                            <h4>{event["name"]}</h4>
-
-                            <h4>{event["date"]}</h4>
-
-                            <h4>Location: {event["location"]}</h4>
-
-                            {event["dress_code"] ? (
-                                <h4>Dress Code: {event["dress_code"]}</h4>
-                            ) : null}
-                        </div>
-
-                        <div className="rush-description">
-                            {event["description"]}
-                        </div>
-                    </div>
-                </div>
-            );
-
-            eventNumber = (eventNumber + 1) % 4;
-        });
-    }
+    const currentDate = moment().startOf("day");
 
     const fadeIn = useSpring({
         from: {
@@ -44,6 +19,49 @@ export default function Rush() {
         },
         config: { duration: 750 },
     });
+
+    if (rushInformation["activeRush"]) {
+        rushInformation["rushEvents"].map((event) => {
+            if (currentDate.diff(moment(event["date"], "MMM Do")) <= 0) {
+                rushEvents.push(
+                    <div className="rush-event-card">
+                        <div className={`event-${eventNumber}`}>
+                            <div className="rush-title">
+                                <h4 className="rush-header">{event["name"]}</h4>
+
+                                <div className="rush-event-info">
+                                    <h4 className="rush-event-time">
+                                        {event["date"]} @ {event["startTime"]}
+                                        &nbsp;-&nbsp;{event["endTime"]}
+                                    </h4>
+
+                                    <h4 className="rush-event-location">
+                                        <b>Location:</b> {event["location"]}
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            {event["dress_code"] ? (
+                                <h4>
+                                    <b>Dress Code:</b> {event["dress_code"]}
+                                    <br />
+                                    <br />
+                                </h4>
+                            ) : null}
+
+                            <div className="rush-description">
+                                {event["description"]}
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+
+            eventNumber = (eventNumber + 1) % 4;
+        });
+    }
 
     return (
         <React.Fragment>
@@ -57,7 +75,7 @@ export default function Rush() {
                     </animated.h4>
 
                     <animated.div className="container" style={fadeIn}>
-                        <h1 className="header">
+                        <h1 className="rush-header">
                             What does it mean to be a Brother of Theta&nbsp;Tau?
                         </h1>
 
@@ -72,7 +90,7 @@ export default function Rush() {
                             academic, professional, and social life.
                         </p>
 
-                        <p className="content-text">
+                        <p className="content-text rush-text">
                             This network is a support structure that you can
                             rely on in the face of struggles that you will face
                             in your college career. Being a brother means being
@@ -89,21 +107,27 @@ export default function Rush() {
 
                         {rushInformation["activeRush"] ? (
                             <div className="rush-container">
-                                <b className="header">
+                                <b className="header join-rush-header">
                                     Come join us for our{" "}
                                     {rushInformation["rushSemester"]}
                                     &nbsp;
-                                    {rushInformation["rushYear"]} rush!
+                                    {rushInformation["rushYear"]}&nbsp;rush!
                                 </b>
 
-                                <h3 className="responsive-header"><a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
-                                    Click here to fill out our interest form
-                                </a></h3>
+                                <h3 className="responsive-header interest-form">
+                                    <a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
+                                        Click here to fill out our interest form
+                                    </a>
+                                </h3>
 
-                                <img className="rush-card" src={rush_card} alt="rush_card"></img>
-                                
-                                <h1 className="responsive-header">Rush Chairs</h1>
-                                <h4 className="rush-chairs">Madi&nbsp;Rose, Alyssa&nbsp;Shapiro, Joe&nbsp;Singh, Dana&nbsp;Suchara, Jake&nbsp;Yeaman</h4>
+                                <img
+                                    className="rush-card"
+                                    src={rush_card}
+                                    alt="rush_card"
+                                ></img>
+
+                                <br />
+                                <br />
 
                                 <div className="rush-events">{rushEvents}</div>
                             </div>

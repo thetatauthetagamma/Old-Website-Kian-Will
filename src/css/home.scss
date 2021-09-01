@@ -3,6 +3,16 @@
     background-image: linear-gradient(to top, black, white);
 }
 
+.next-event-banner-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.next-event-banner-info {
+    display: flex;
+    flex-direction: row;
+}
+
 .blm {
     .header {
         margin-top: 0.5vh;
@@ -81,17 +91,29 @@
 
 @media screen and (max-width: 575px) {
     .home-carousel-container {
-        margin-bottom: 0;
+        margin-bottom: 0.5vh;
 
         .home-pictures {
             width: 100vw;
-            height: 40vh;
+            height: 30vh;
             object-fit: cover;
         }
 
         .carousel-text {
             font-size: clamp(1rem, 8vw, 3rem);
         }
+    }
+
+    .next-event-banner-title {
+        flex-direction: column;
+    }
+
+    .next-event-banner-info {
+        flex-direction: column;
+    }
+
+    .next-event-vertical-line {
+        display: none;
     }
 
     .blm {

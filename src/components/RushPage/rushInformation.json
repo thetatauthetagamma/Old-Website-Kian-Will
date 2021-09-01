@@ -5,32 +5,42 @@
     "rushEvents": [
         {
             "name": "Central Campus Info Session",
-            "date": "September 3 @ 4:30 - 6:30 pm",
+            "date": "September 3",
+            "startTime": "5:00",
+            "endTime": "7:00 pm",
             "location": "Union - Keunzel Room",
             "description": "Come learn about Theta Tau at our Central Campus Info Session! You are not required to go to both info sessions."
         },
         {
             "name": "North Campus Info Session",
-            "date": "September 5 @ 4:00 - 6:00 pm",
+            "date": "September 5",
+            "startTime": "4:00",
+            "endTime": "6:00 pm",
             "location": "Beyster 1670",
             "description": "Come learn about Theta Tau at our North Campus Info Session! You are not required to go to both info sessions."
         },
         {
             "name": "Cider & Donuts",
-            "date": "September 7 @ 6:00 - 8:00 pm",
+            "date": "September 7",
+            "startTime": "6:00",
+            "endTime": "8:00 pm",
             "location": "Palmer Field",
             "description": "Enjoy cider and donuts while meeting brothers!"
         },
         {
             "name": "Professional Development Overview",
-            "date": "September 9 @ 7:00 - 9:00 pm",
-            "location": "Beyster 1670",
+            "date": "September 9",
+            "startTime": "7:00",
+            "endTime": "9:00 pm",
+            "location": "FXB 1109",
             "description": "Come meet our professional development panel and learn about Theta Tau's professional benefits!  Bring your resume for critiquing~",
             "dress_code": "Business Casual"
         },
         {
             "name": "Philanthropy Event",
-            "date": "September 11 @ 11:00 am - 12:30 pm",
+            "date": "September 11",
+            "startTime": "11:00 am",
+            "endTime": "12:30 pm",
             "location": "TBD",
             "description": "Learn about Theta Tau's Philanthropy Committee through a hands-on philanthropy event!"
         }

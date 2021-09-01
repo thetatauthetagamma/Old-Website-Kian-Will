@@ -7,9 +7,49 @@ import slide3 from "../../pictures/home/Slide3.png";
 import slide4 from "../../pictures/home/Slide4.png";
 import slide5 from "../../pictures/home/Slide5.jpg";
 import slide6 from "../../pictures/home/Slide6.JPG";
+import moment from "moment";
+import rushInformation from "../RushPage/rushInformation.json";
 import "../../css/home.scss";
 
 export default function Home(props) {
+    const currentDate = moment().startOf("day");
+    let nextRush = null;
+
+    if (rushInformation["activeRush"]) {
+        for (const [key, value] of Object.entries(
+            rushInformation["rushEvents"]
+        )) {
+            if (currentDate.diff(moment(value["date"], "MMM Do")) <= 0) {
+                nextRush = (
+                    <div
+                        className="alert alert-primary"
+                        style={{ marginBottom: 0 }}
+                        role="alert"
+                    >
+                        <div className="next-event-banner-title">
+                            <b>Upcoming Rush Event:&nbsp;</b>
+                            <span>{value["name"]}</span>
+                        </div>
+
+                        <br />
+
+                        <div className="next-event-banner-info">
+                            <div>
+                                {value["date"]} @ {value["startTime"]}
+                                &nbsp;-&nbsp;{value["endTime"]}
+                            </div>
+                            <div className="next-event-vertical-line">
+                                &nbsp;&nbsp;|&nbsp;&nbsp;
+                            </div>
+                            <div>{value["location"]}</div>
+                        </div>
+                    </div>
+                );
+                break;
+            }
+        }
+    }
+
     const fadeIn = useSpring({
         from: {
             opacity: 0,
@@ -22,7 +62,8 @@ export default function Home(props) {
 
     return (
         <React.Fragment>
-            <div className="home-carousel-container">
+            {nextRush}
+            <animated.div className="home-carousel-container" style={fadeIn}>
                 <div
                     id="home-carousel"
                     className="carousel slide carousel-fade"
@@ -32,7 +73,7 @@ export default function Home(props) {
                     data-keyboard={false}
                 >
                     <div class="carousel-inner">
-                        <div class="carousel-item home-pictures">
+                        <div class="carousel-item active home-pictures">
                             <img
                                 class="d-block w-100"
                                 src={slide1}
@@ -50,28 +91,28 @@ export default function Home(props) {
                             <img
                                 class="d-block w-100"
                                 src={slide3}
-                                alt="Second slide"
+                                alt="Third slide"
                             />
                         </div>
-                        <div class="carousel-item active home-pictures">
+                        <div class="carousel-item home-pictures">
                             <img
                                 class="d-block w-100"
                                 src={slide4}
-                                alt="Second slide"
+                                alt="Fourth slide"
                             />
                         </div>
                         <div class="carousel-item home-pictures">
                             <img
                                 class="d-block w-100"
                                 src={slide5}
-                                alt="Second slide"
+                                alt="Fifth slide"
                             />
                         </div>
                         <div class="carousel-item home-pictures">
                             <img
                                 class="d-block w-100"
                                 src={slide6}
-                                alt="Second slide"
+                                alt="Sixth slide"
                             />
                         </div>
                     </div>
@@ -79,7 +120,7 @@ export default function Home(props) {
                 <h1 className="carousel-text">
                     Theta&nbsp;Tau at the University&nbsp;of&nbsp;Michigan
                 </h1>
-            </div>
+            </animated.div>
             <div
                 className="about-container"
                 style={{ backgroundColor: "white" }}

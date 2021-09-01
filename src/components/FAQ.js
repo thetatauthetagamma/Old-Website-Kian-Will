@@ -21,7 +21,10 @@ export default function FAQ() {
             >
                 <div className="vertical-column" />
                 <div className="faq-info-container">
-                    <h1 className="header" style={{ textAlign: "center" }}>
+                    <h1
+                        className="header faq-header"
+                        style={{ textAlign: "center" }}
+                    >
                         {" "}
                         FAQ{" "}
                     </h1>
