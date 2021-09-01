@@ -96,14 +96,14 @@ export default function Rush() {
                                     {rushInformation["rushYear"]} rush!
                                 </b>
 
-                                <h3><a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
+                                <h3 className="responsive-header"><a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
                                     Click here to fill out our interest form
                                 </a></h3>
 
-                                <img src={rush_card}></img>
+                                <img className="rush-card" src={rush_card} alt="rush_card"></img>
                                 
-                                <h1>Rush Chairs</h1>
-                                <h4>Madi Rose, Alyssa Shapiro, Joe Singh, Dana Suchara, Jake Yeaman</h4>
+                                <h1 className="responsive-header">Rush Chairs</h1>
+                                <h4 className="rush-chairs">Madi Rose, Alyssa Shapiro, Joe Singh, Dana Suchara, Jake Yeaman</h4>
 
                                 <div className="rush-events">{rushEvents}</div>
                             </div>

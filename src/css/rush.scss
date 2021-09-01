@@ -112,3 +112,30 @@
         background-color: #d1f3ff;
     }
 }
+
+.responsive-header{
+    
+    font-size: 3rem;
+
+}
+
+.rush-chairs{
+    font-size: 2rem;
+}
+
+.rush-card{
+    // height: clamp(20rem, 10vw, 40rem);
+    // width: clamp(40rem, 10vw, 60rem);
+    height: 90%;
+    width: 90%;
+}
+
+@media screen and (max-width: 575px) {
+    
+    .responsive-header{
+
+        font-size: clamp(1rem, 10vw, 2rem);
+
+    }   
+    
+}
