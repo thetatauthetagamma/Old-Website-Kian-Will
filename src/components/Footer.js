@@ -48,7 +48,10 @@ export default function Footer() {
                         </div>
 
                         <div className="footer-socials">
-                            {InstagramLogo}
+                            <a href="https://www.instagram.com/thetatau_umich">
+                                {InstagramLogo}
+                            </a>
+
                             {FacebookLogo}
                         </div>
                     </div>
