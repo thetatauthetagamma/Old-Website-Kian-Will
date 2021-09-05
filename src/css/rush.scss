@@ -32,6 +32,14 @@
     margin-bottom: 2vh;
 }
 
+.interest-link {
+    text-decoration: none;
+}
+
+.interest-link:hover {
+    color: rgb(141, 181, 218);
+}
+
 @media screen and (max-width: 575px) {
     .rush {
         .tht-purpose {

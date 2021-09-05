@@ -4,10 +4,18 @@
     "rushYear": "2021",
     "rushEvents": [
         {
-            "name": "Central Campus Info Session",
+            "name": "Central Campus Info Session (1st Session)",
             "date": "September 3",
-            "startTime": "5:00",
-            "endTime": "7:00 pm",
+            "startTime": "4:30",
+            "endTime": "5:30 pm",
+            "location": "Union - Keunzel Room",
+            "description": "Come learn about Theta Tau at our Central Campus Info Session! You are not required to go to both info sessions."
+        },
+        {
+            "name": "Central Campus Info Session (2nd Session)",
+            "date": "September 3",
+            "startTime": "5:30",
+            "endTime": "6:30 pm",
             "location": "Union - Keunzel Room",
             "description": "Come learn about Theta Tau at our Central Campus Info Session! You are not required to go to both info sessions."
         },

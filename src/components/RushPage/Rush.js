@@ -87,7 +87,10 @@ export default function Rush() {
                                 </b>
 
                                 <h3 className="responsive-header interest-form">
-                                    <a href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit">
+                                    <a
+                                        className="interest-link"
+                                        href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit"
+                                    >
                                         Click here to fill out our interest form
                                     </a>
                                 </h3>

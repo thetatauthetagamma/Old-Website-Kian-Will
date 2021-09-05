@@ -51,8 +51,6 @@ export default function Footer() {
                             <a href="https://www.instagram.com/thetatau_umich">
                                 {InstagramLogo}
                             </a>
-
-                            {FacebookLogo}
                         </div>
                     </div>
                 </div>

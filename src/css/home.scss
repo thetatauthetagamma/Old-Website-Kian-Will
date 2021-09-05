@@ -54,17 +54,19 @@
 .home-carousel-container {
     position: relative;
     text-align: center;
-    color: white;
     margin-bottom: 3vh;
 }
 
 .home-pictures {
     width: 100%;
     height: 80vh;
+    position: relative;
     object-fit: cover;
 }
 
 .carousel-text {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
     z-index: 1;
     color: white;
     font-size: 8em;

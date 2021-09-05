@@ -65,62 +65,64 @@ export default function Home(props) {
             {nextRush}
             <animated.div className="home-carousel-container" style={fadeIn}>
                 <div
-                    id="home-carousel"
-                    className="carousel slide carousel-fade"
-                    data-interval="6000"
-                    data-ride="carousel"
+                    id="carouselExampleFade"
+                    class="carousel slide carousel-fade"
+                    data-bs-ride="carousel"
+                    data-interval="3000"
                     data-pause={false}
                     data-keyboard={false}
                 >
                     <div class="carousel-inner">
                         <div class="carousel-item active home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide1}
-                                alt="First slide"
-                            />
+                            <img src={slide1} class="d-block w-100" />
                         </div>
                         <div class="carousel-item home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide2}
-                                alt="Second slide"
-                            />
+                            <img src={slide2} class="d-block w-100" />
                         </div>
                         <div class="carousel-item home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide3}
-                                alt="Third slide"
-                            />
+                            <img src={slide3} class="d-block w-100" />
                         </div>
                         <div class="carousel-item home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide4}
-                                alt="Fourth slide"
-                            />
+                            <img src={slide4} class="d-block w-100" />
                         </div>
                         <div class="carousel-item home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide5}
-                                alt="Fifth slide"
-                            />
+                            <img src={slide5} class="d-block w-100" />
                         </div>
                         <div class="carousel-item home-pictures">
-                            <img
-                                class="d-block w-100"
-                                src={slide6}
-                                alt="Sixth slide"
-                            />
+                            <img src={slide6} class="d-block w-100" />
                         </div>
                     </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
                 <h1 className="carousel-text">
                     Theta&nbsp;Tau at the University&nbsp;of&nbsp;Michigan
                 </h1>
             </animated.div>
+
             <div
                 className="about-container"
                 style={{ backgroundColor: "white" }}
