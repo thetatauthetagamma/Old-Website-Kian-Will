@@ -30,7 +30,12 @@ export default function Navbar() {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <h3>
-                                <Link className="nav-link" to="/rush">
+                                <Link
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse"
+                                    className="nav-link"
+                                    to="/rush"
+                                >
                                     Rush
                                 </Link>
                             </h3>
@@ -38,7 +43,12 @@ export default function Navbar() {
 
                         <li className="nav-item">
                             <h3>
-                                <Link className="nav-link" to="/members">
+                                <Link
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse"
+                                    className="nav-link"
+                                    to="/members"
+                                >
                                     Members
                                 </Link>
                             </h3>
@@ -46,7 +56,12 @@ export default function Navbar() {
 
                         <li className="nav-item">
                             <h3>
-                                <Link className="nav-link" to="/faq">
+                                <Link
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse"
+                                    className="nav-link"
+                                    to="/faq"
+                                >
                                     FAQ
                                 </Link>
                             </h3>
