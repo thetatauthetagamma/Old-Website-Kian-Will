@@ -76,7 +76,10 @@ export default function Rush() {
                         FELLOWSHIP.
                     </animated.h4>
 
-                    <animated.div className="container" style={fadeIn}>
+                    <animated.div
+                        className="container rush-info-container"
+                        style={fadeIn}
+                    >
                         {rushInformation["activeRush"] ? (
                             <div className="rush-container">
                                 <b className="header join-rush-header">
@@ -86,14 +89,17 @@ export default function Rush() {
                                     {rushInformation["rushYear"]}&nbsp;rush!
                                 </b>
 
-                                <h3 className="responsive-header interest-form">
-                                    <a
-                                        className="interest-link"
-                                        href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit"
-                                    >
-                                        Click here to fill out our interest form
-                                    </a>
-                                </h3>
+                                {rushInformation["rushLink"] ? (
+                                    <h3 className="responsive-header interest-form">
+                                        <a
+                                            className="interest-link"
+                                            href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit"
+                                        >
+                                            Click here to fill out our interest
+                                            form
+                                        </a>
+                                    </h3>
+                                ) : null}
 
                                 <img
                                     className="rush-card rush-poster"
@@ -107,21 +113,23 @@ export default function Rush() {
                                 <div className="rush-events">{rushEvents}</div>
                             </div>
                         ) : (
-                            <div className="alert alert-info">
-                                <b className="no-rush-alert">
-                                    Unfortunately, our rush season has ended for
-                                    the current semester.
-                                    <br />
-                                    <br />
-                                    Feel free to check out our Instagram and
-                                    Facebook page for any updates!
-                                    <br />
-                                    <br />
-                                    Typically, rush happens in the beginning of
-                                    the semester so make sure to check us out
-                                    then~
-                                </b>
-                            </div>
+                            <React.Fragment>
+                                <div className="alert alert-info no-rush-container">
+                                    <b className="no-rush-alert">
+                                        Unfortunately, our rush season has ended
+                                        for the current semester.
+                                        <br />
+                                        <br />
+                                        Feel free to check out our Instagram and
+                                        Facebook page for any updates!
+                                        <br />
+                                        <br />
+                                        Typically, rush happens in the beginning
+                                        of the semester
+                                        so&nbsp;make&nbsp;sure&nbsp;to&nbsp;check&nbsp;us&nbsp;out&nbsp;then~
+                                    </b>
+                                </div>
+                            </React.Fragment>
                         )}
                     </animated.div>
                 </div>

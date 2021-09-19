@@ -40,6 +40,14 @@
     color: rgb(141, 181, 218);
 }
 
+.no-rush-container {
+    margin-bottom: 15vh;
+}
+
+.no-rush-alert {
+    font-size: 2em;
+}
+
 @media screen and (max-width: 575px) {
     .rush {
         .tht-purpose {
@@ -62,12 +70,17 @@
         }
 
         .no-rush-alert {
-            font-size: 0.9em;
+            font-size: 1.3em;
+            margin-bottom: 100%;
         }
     }
 
     .rush-poster {
         display: none;
+    }
+
+    .no-rush-container {
+        margin-bottom: 5vh;
     }
 
     .rush-spacing {
@@ -186,6 +199,19 @@
     margin-bottom: 0.5vh;
     text-align: center;
     font-weight: bolder;
+}
+
+.rush-info-container {
+    // min-height: 40.4vh;
+    // position: bottom;
+}
+
+.no-rush-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    height: 10vh;
 }
 
 @media screen and (max-width: 575px) {

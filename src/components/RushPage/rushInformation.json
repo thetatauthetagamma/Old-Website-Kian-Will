@@ -1,7 +1,8 @@
 {
-    "activeRush": true,
+    "activeRush": false,
     "rushSemester": "Fall",
     "rushYear": "2021",
+    "rushLink": "https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit",
     "rushEvents": [
         {
             "name": "Central Campus Info Session (1st Session)",
