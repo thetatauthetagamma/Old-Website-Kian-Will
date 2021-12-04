@@ -7,6 +7,7 @@ import Home from "./components/HomePage/Home";
 import Rush from "./components/RushPage/Rush";
 import Members from "./components/MembersPage/Members";
 import FAQ from "./components/FAQ";
+import Jobs from './components/JobSearch/Jobs';
 
 function App() {
     return (
@@ -19,6 +20,11 @@ function App() {
                         {/* FAQ Page */}
                         <Route path="/faq">
                             <FAQ />
+                        </Route>
+
+                        {/* Job Search Page */}
+                        <Route path="/jobs">
+                            <Jobs />
                         </Route>
 
                         {/* Rush Page */}

@@ -1,0 +1,530 @@
+{
+    "SpaceX": {
+        "intern": [
+            "https://www.spacex.com/careers/?search=",
+            "&type=Intern"
+        ],
+        "fulltime": [
+            "https://www.spacex.com/careers/?search=",
+            "&type=Full-Time"
+        ],
+        "type": "aero"
+    },
+    "Tesla": {
+        "intern": [
+            "https://www.tesla.com/careers/search/?country=US&query=",
+            "&type=3"
+        ],
+        "fulltime": [
+            "https://www.tesla.com/careers/search/?country=US&query=",
+            "&type=1"
+        ],
+        "type": "automotive"
+    },
+    "Rivian": {
+        "intern": [
+            "https://rivian.com/careers?search=",
+            ""
+        ],
+        "fulltime": [
+            "https://rivian.com/careers?search=",
+            "&workType=Full-Time"
+        ],
+        "type": "automotive"
+    },
+    "DTE": {
+        "intern": [
+            "https://careers.dteenergy.com/search/?createNewAlert=false&q=",
+            "&optionsFacetsDD_location=&optionsFacetsDD_state=&optionsFacetsDD_department=&locationsearch="
+        ],
+        "fulltime": [
+            "https://careers.dteenergy.com/search/?createNewAlert=false&q=",
+            "&optionsFacetsDD_location=&optionsFacetsDD_state=&optionsFacetsDD_department=&locationsearch="
+        ],
+        "type": "energy"
+    },
+    "Ford": {
+        "intern": [
+            "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25385&siteid=5311&PageType=searchResults&SearchType=linkquery&LinkID=3974233#keyWordSearch=",
+            ""
+        ],
+        "fulltime": [
+            "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25385&siteid=5186&PageType=searchResults&SearchType=linkquery&LinkID=4002074#keyWordSearch=",
+            ""
+        ],
+        "type": "automotive"
+    },
+    "General Mills": {
+        "intern": [
+            "https://careers.generalmills.com/careers/jobs?keywords=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.generalmills.com/careers/jobs?keywords=",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "Conagra": {
+        "intern": [
+            "https://jobs.conagra.com/careers?pid=10088552&query=",
+            "&domain=conagra.com&triggerGoButton=false"
+        ],
+        "fulltime": [
+            "https://jobs.conagra.com/careers?pid=10088552&query=",
+            "&domain=conagra.com&triggerGoButton=false"
+        ],
+        "type": "consumer goods"
+    },
+    "BASF": {
+        "intern": [
+            "https://www.basf.com/global/en/careers/jobs.html#%7B%220%22%3A%5B%5B%22q%22%2C%5B%22",
+            "%22%5D%5D%2C%5B%22jobs%3Ajobtype%22%2C%5B%22jobs%3Ajobtype%2Finternship%22%5D%5D%5D%7D"
+        ],
+        "fulltime": [
+            "https://www.basf.com/global/en/careers/jobs.html#%7B%220%22%3A%5B%5B%22q%22%2C%5B%22",
+            "%22%5D%5D%2C%5B%22jobs%3Ajobtype%22%2C%5B%22jobs%3Ajobtype%2Fstandard%22%5D%5D%5D%7D"
+        ],
+        "type": "chemical"
+    },
+    "Procter & Gamble": {
+        "intern": [
+            "https://www.pgcareers.com/search-jobs?k=",
+            "&ascf=[{%27key%27:%27custom_fields.Language%27,%27value%27:%27English%27},]"
+        ],
+        "fulltime": [
+            "https://www.pgcareers.com/search-jobs?k=",
+            "&ascf=[{%27key%27:%27custom_fields.Language%27,%27value%27:%27English%27},]"
+        ],
+        "type": "consumer goods"
+    },
+    "Delta": {
+        "intern": [
+            "https://delta.avature.net/careers/SearchJobs/",
+            "?2884=75201&2884_format=3665&listFilterMode=1"
+        ],
+        "fulltime": [
+            "https://delta.avature.net/careers/SearchJobs/",
+            ""
+        ],
+        "type": "aero"
+    },
+    "DoorDash": {
+        "intern": [
+            "https://careers.doordash.com/?search=",
+            "#open-positions"
+        ],
+        "fulltime": [
+            "https://careers.doordash.com/?search=",
+            "#open-positions"
+        ],
+        "type": "tech"
+    },
+    "Bloomberg": {
+        "intern": [
+            "https://careers.bloomberg.com/job/search?el=Internships&qf=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.bloomberg.com/job/search?el=Experienced+Hires&el=Students+and+Recent+Graduates&qf=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Grubhub": {
+        "intern": [
+            "https://careers-grubhub.icims.com/jobs/search?ss=1&searchKeyword=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers-grubhub.icims.com/jobs/search?ss=1&searchKeyword=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Apple": {
+        "intern": [
+            "https://jobs.apple.com/en-us/search?search=",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.apple.com/en-us/search?search=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Google": {
+        "intern": [
+            "https://careers.google.com/jobs/results/?distance=50&employment_type=INTERN&q=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.google.com/jobs/results/?distance=50&employment_type=FULL_TIME&q=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Capital One": {
+        "intern": [
+            "https://www.capitalonecareers.com/search-jobs/",
+            "/1732/1"
+        ],
+        "fulltime": [
+            "https://www.capitalonecareers.com/search-jobs/",
+            "/1732/1"
+        ],
+        "type": "tech"
+    },
+    "Stripe": {
+        "intern": [
+            "https://stripe.com/jobs/search?s=intern&q=",
+            ""
+        ],
+        "fulltime": [
+            "https://stripe.com/jobs/search?s=fulltime&q=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Square": {
+        "intern": [
+            "https://careers.squareup.com/us/en/jobs?type%5B%5D=Intern&role%5B%5D=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.squareup.com/us/en/jobs?type%5B%5D=Full-time&role%5B%5D=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Atlassian": {
+        "intern": [
+            "https://www.atlassian.com/company/careers/all-jobs?team=Interns&location=&search=",
+            ""
+        ],
+        "fulltime": [
+            "https://www.atlassian.com/company/careers/all-jobs?team=&location=&search=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Facebook": {
+        "intern": [
+            "https://www.facebookcareers.com/jobs/?q=",
+            "&roles[0]=intern"
+        ],
+        "fulltime": [
+            "https://www.facebookcareers.com/jobs/?q=",
+            "&roles[0]=full-time"
+        ],
+        "type": "tech"
+    },
+    "Roblox": {
+        "intern": [
+            "https://jobs.roblox.com/careers?pid=137448893814&query=",
+            "&domain=roblox.com&triggerGoButton=true"
+        ],
+        "fulltime": [
+            "https://jobs.roblox.com/careers?pid=137448893814&query=",
+            "&domain=roblox.com&triggerGoButton=true"
+        ],
+        "type": "tech"
+    },
+    "Microsoft": {
+        "intern": [
+            "https://careers.microsoft.com/us/en/search-results?keywords=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.microsoft.com/us/en/search-results?keywords=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Johnson & Johnson": {
+        "intern": [
+            "https://jobs.jnj.com/jobs?page=1&keywords=",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.jnj.com/jobs?page=1&keywords=",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "MAttel": {
+        "intern": [
+            "https://jobs.mattel.com/search-jobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.mattel.com/search-jobs/",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "SC Johnson": {
+        "intern": [
+            "https://jobs.scjohnson.com/search-jobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.scjohnson.com/search-jobs/",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "Porsche": {
+        "intern": [
+            "https://jobs.porsche.com/index.php?ac=search_result&search_criterion_keyword%5B%5D=",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.porsche.com/index.php?ac=search_result&search_criterion_keyword%5B%5D=",
+            ""
+        ],
+        "type": "automotive"
+    },
+    "P & G": {
+        "intern": [
+            "https://www.pgcareers.com/search-jobs?k=",
+            ""
+        ],
+        "fulltime": [
+            "https://www.pgcareers.com/search-jobs?k=",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "Eli Lilly": {
+        "intern": [
+            "https://careers.lilly.com/search-jobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.lilly.com/search-jobs/",
+            ""
+        ],
+        "type": "medical"
+    },
+    "McKinsey": {
+        "intern": [
+            "https://www.mckinsey.com/careers/search-jobs?query=",
+            ""
+        ],
+        "fulltime": [
+            "https://www.mckinsey.com/careers/search-jobs?query=",
+            ""
+        ],
+        "type": "consulting"
+    },
+    "Bain": {
+        "intern": [
+            "https://csscareers-bain.icims.com/jobs/search?ss=1&searchKeyword=",
+            ""
+        ],
+        "fulltime": [
+            "https://csscareers-bain.icims.com/jobs/search?ss=1&searchKeyword=",
+            ""
+        ],
+        "type": "consulting"
+    },
+    "BCG": {
+        "intern": [
+            "https://talent.bcg.com/en_US/apply/SearchJobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://talent.bcg.com/en_US/apply/SearchJobs/",
+            ""
+        ],
+        "type": "consulting"
+    },
+    "Amazon": {
+        "intern": [
+            "https://www.amazon.jobs/en/search?base_query=",
+            "&loc_query="
+        ],
+        "fulltime": [
+            "https://www.amazon.jobs/en/search?base_query=",
+            "&loc_query="
+        ],
+        "type": "tech"
+    },
+    "Strkyer": {
+        "intern": [
+            "https://careers.stryker.com/job-search-results/?keyword=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.stryker.com/job-search-results/?keyword=",
+            ""
+        ],
+        "type": "medical"
+    },
+    "Lockheed Martin": {
+        "intern": [
+            "https://www.lockheedmartinjobs.com/search-jobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://www.lockheedmartinjobs.com/search-jobs/",
+            ""
+        ],
+        "type": "aero"
+    },
+    "Raytheon": {
+        "intern": [
+            "https://jobs.rtx.com/search-jobs/",
+            ""
+        ],
+        "fulltime": [
+            "https://jobs.rtx.com/search-jobs/",
+            ""
+        ],
+        "type": "aero"
+    },
+    "Northrop Grumman": {
+        "intern": [
+            "https://www.northropgrumman.com/jobs/?search=",
+            ""
+        ],
+        "fulltime": [
+            "https://www.northropgrumman.com/jobs/?search=",
+            ""
+        ],
+        "type": "aero"
+    },
+    "Blue Origin": {
+        "intern": [
+            "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin?q=",
+            ""
+        ],
+        "fulltime": [
+            "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin?q=",
+            ""
+        ],
+        "type": "aero"
+    },
+    "Caterpillar": {
+        "intern": [
+            "https://careers.caterpillar.com/en/jobs/?searchTerm=",
+            "&pagesize=20#results"
+        ],
+        "fulltime": [
+            "https://careers.caterpillar.com/en/jobs/?searchTerm=",
+            "&pagesize=20#results"
+        ],
+        "type": "automotive"
+    },
+    "Grainger": {
+        "intern": [
+            "https://jobs.grainger.com/search/?createNewAlert=false&q=",
+            "&locationsearch="
+        ],
+        "fulltime": [
+            "https://jobs.grainger.com/search/?createNewAlert=false&q=",
+            "&locationsearch="
+        ],
+        "type": "automotive"
+    },
+    "Fedex": {
+        "intern": [
+            "https://careers.fedex.com/fedex/jobs?keywords=",
+            ""
+        ],
+        "fulltime": [
+            "https://careers.fedex.com/fedex/jobs?keywords=",
+            ""
+        ],
+        "type": "consumer goods"
+    },
+    "Intel": {
+        "intern": [
+            "https://jobs.intel.com/page/show/search-results#q=",
+            "&t=Jobs&sort=relevancy&layout=table"
+        ],
+        "fulltime": [
+            "https://jobs.intel.com/page/show/search-results#q=",
+            "&t=Jobs&sort=relevancy&layout=table"
+        ],
+        "type": "tech"
+    },
+    "IBM": {
+        "intern": [
+            "https://www.ibm.com/employment/#jobs?%23jobs=&job-search=",
+            ""
+        ],
+        "fulltime": [
+            "https://www.ibm.com/employment/#jobs?%23jobs=&job-search=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "JP Morgan": {
+        "intern": [
+            "https://careers.jpmorgan.com/global/en/students/programs?deeplink=multiTabNav1::tab3&search=",
+            "&tags="
+        ],
+        "fulltime": [
+            "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=",
+            ""
+        ],
+        "type": "consulting"
+    },
+    "Deliotte": {
+        "intern": [
+            "https://apply.deloitte.com/careers/SearchJobs/",
+            "?sort=relevancy"
+        ],
+        "fulltime": [
+            "https://apply.deloitte.com/careers/SearchJobs/",
+            "?sort=relevancy"
+        ],
+        "type": "consulting"
+    },
+    "HBO": {
+        "intern": [
+            "https://warnermediacareers.com/global/en/search-results?keywords=",
+            ""
+        ],
+        "fulltime": [
+            "https://warnermediacareers.com/global/en/search-results?keywords=",
+            ""
+        ],
+        "type": "tech"
+    },
+    "Gulfstream Aerospace": {
+        "intern": [
+            "https://careers.gulfstream.com/search/?createNewAlert=false&q=",
+            "&locationsearch="
+        ],
+        "fulltime": [
+            "https://careers.gulfstream.com/search/?createNewAlert=false&q=",
+            "&locationsearch="
+        ],
+        "type": "aero"
+    },
+    "Target": {
+        "intern": [
+            "https://jobs.target.com/search-jobs/",
+            "/1118/1?fl=6252001,1269750"
+        ],
+        "fulltime": [
+            "https://jobs.target.com/search-jobs/",
+            "/1118/1?fl=6252001,1269750"
+        ],
+        "type": "consumer goods"
+    },
+    "Kroger": {
+        "intern": [
+            "https://kroger.eightfold.ai/careers?pid=10032892&query=",
+            "&domain=kroger.com&triggerGoButton=false"
+        ],
+        "fulltime": [
+            "https://kroger.eightfold.ai/careers?pid=10032892&query=",
+            "&domain=kroger.com&triggerGoButton=false"
+        ],
+        "type": "consumer goods"
+    }
+}

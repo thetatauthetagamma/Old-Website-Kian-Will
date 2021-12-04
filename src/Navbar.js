@@ -98,6 +98,18 @@ export default function Navbar() {
                                 )}
                             </h3>
                         </li>
+
+                        <li className="nav-item">
+                            <h3>
+                                {isMobile ? (
+                                    null
+                                ) : (
+                                    <Link className="nav-link" to="/jobs">
+                                        Job Search
+                                    </Link>
+                                )}
+                            </h3>
+                        </li>
                     </ul>
                 </div>
             </div>

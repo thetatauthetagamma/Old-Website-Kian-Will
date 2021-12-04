@@ -1,0 +1,64 @@
+Company Name,Intern Search Url,Full-Time Search Url,Major
+SpaceX,https://www.spacex.com/careers/?search=(JOBHERE)&type=Intern,https://www.spacex.com/careers/?search=(JOBHERE)&type=Full-Time,Aero
+Tesla,https://www.tesla.com/careers/search/?country=US&query=(JOBHERE)&type=3,https://www.tesla.com/careers/search/?country=US&query=(JOBHERE)&type=1,Automotive
+Rivian,https://rivian.com/careers?search=(JOBHERE),https://rivian.com/careers?search=(JOBHERE)&workType=Full-Time,Automotive
+Canoo,,,
+3M,,,
+Patagonia,,,
+DTE,https://careers.dteenergy.com/search/?createNewAlert=false&q=(JOBHERE)&optionsFacetsDD_location=&optionsFacetsDD_state=&optionsFacetsDD_department=&locationsearch=,https://careers.dteenergy.com/search/?createNewAlert=false&q=(JOBHERE)&optionsFacetsDD_location=&optionsFacetsDD_state=&optionsFacetsDD_department=&locationsearch=,Energy
+Ford,https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25385&siteid=5311&PageType=searchResults&SearchType=linkquery&LinkID=3974233#keyWordSearch=(JOBHERE),https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25385&siteid=5186&PageType=searchResults&SearchType=linkquery&LinkID=4002074#keyWordSearch=(JOBHERE),Automotive
+General Mills,https://careers.generalmills.com/careers/jobs?keywords=(JOBHERE),https://careers.generalmills.com/careers/jobs?keywords=(JOBHERE),Consumer Goods
+DOW,,,Chemical
+Conagra,https://jobs.conagra.com/careers?pid=10088552&query=(JOBHERE)&domain=conagra.com&triggerGoButton=false,https://jobs.conagra.com/careers?pid=10088552&query=(JOBHERE)&domain=conagra.com&triggerGoButton=false,Consumer Goods
+BASF,https://www.basf.com/global/en/careers/jobs.html#%7B%220%22%3A%5B%5B%22q%22%2C%5B%22(JOBHERE)%22%5D%5D%2C%5B%22jobs%3Ajobtype%22%2C%5B%22jobs%3Ajobtype%2Finternship%22%5D%5D%5D%7D,https://www.basf.com/global/en/careers/jobs.html#%7B%220%22%3A%5B%5B%22q%22%2C%5B%22(JOBHERE)%22%5D%5D%2C%5B%22jobs%3Ajobtype%22%2C%5B%22jobs%3Ajobtype%2Fstandard%22%5D%5D%5D%7D,Chemical
+Procter & Gamble,"https://www.pgcareers.com/search-jobs?k=(JOBHERE)&ascf=[{%27key%27:%27custom_fields.Language%27,%27value%27:%27English%27},]","https://www.pgcareers.com/search-jobs?k=(JOBHERE)&ascf=[{%27key%27:%27custom_fields.Language%27,%27value%27:%27English%27},]",Consumer Goods
+Delta,https://delta.avature.net/careers/SearchJobs/(JOBHERE)?2884=75201&2884_format=3665&listFilterMode=1,https://delta.avature.net/careers/SearchJobs/(JOBHERE),Aero
+DoorDash,https://careers.doordash.com/?search=(JOBHERE)#open-positions,https://careers.doordash.com/?search=(JOBHERE)#open-positions,Tech
+Twilio,,,
+Snackpass,,,
+Bloomberg,https://careers.bloomberg.com/job/search?el=Internships&qf=(JOBHERE),https://careers.bloomberg.com/job/search?el=Experienced+Hires&el=Students+and+Recent+Graduates&qf=(JOBHERE),Tech
+Grubhub,https://careers-grubhub.icims.com/jobs/search?ss=1&searchKeyword=(JOBHERE),https://careers-grubhub.icims.com/jobs/search?ss=1&searchKeyword=(JOBHERE),Tech
+Apple,https://jobs.apple.com/en-us/search?search=(JOBHERE),https://jobs.apple.com/en-us/search?search=(JOBHERE),
+Google,https://careers.google.com/jobs/results/?distance=50&employment_type=INTERN&q=(JOBHERE),https://careers.google.com/jobs/results/?distance=50&employment_type=FULL_TIME&q=(JOBHERE),Tech
+Capital One,https://www.capitalonecareers.com/search-jobs/(JOBHERE)/1732/1,https://www.capitalonecareers.com/search-jobs/(JOBHERE)/1732/1,Tech
+Stripe,https://stripe.com/jobs/search?s=intern&q=(JOBHERE),https://stripe.com/jobs/search?s=fulltime&q=(JOBHERE),Tech
+Square,https://careers.squareup.com/us/en/jobs?type%5B%5D=Intern&role%5B%5D=(JOBHERE),https://careers.squareup.com/us/en/jobs?type%5B%5D=Full-time&role%5B%5D=(JOBHERE),Tech
+Atlassian,https://www.atlassian.com/company/careers/all-jobs?team=Interns&location=&search=(JOBHERE),https://www.atlassian.com/company/careers/all-jobs?team=&location=&search=(JOBHERE),Tech
+Facebook,https://www.facebookcareers.com/jobs/?q=(JOBHERE)&roles[0]=intern,https://www.facebookcareers.com/jobs/?q=(JOBHERE)&roles[0]=full-time,Tech
+Roblox,https://jobs.roblox.com/careers?pid=137448893814&query=(JOBHERE)&domain=roblox.com&triggerGoButton=true,https://jobs.roblox.com/careers?pid=137448893814&query=(JOBHERE)&domain=roblox.com&triggerGoButton=true,Tech
+Akuna Capital,,,
+Ocient,,,
+Microsoft,https://careers.microsoft.com/us/en/search-results?keywords=(JOBHERE),https://careers.microsoft.com/us/en/search-results?keywords=(JOBHERE),Tech
+Johnson & Johnson,https://jobs.jnj.com/jobs?page=1&keywords=(JOBHERE),https://jobs.jnj.com/jobs?page=1&keywords=(JOBHERE),Consumer Goods
+NASA,,,
+MAttel,https://jobs.mattel.com/search-jobs/(JOBHERE),https://jobs.mattel.com/search-jobs/(JOBHERE),Consumer Goods
+SC Johnson,https://jobs.scjohnson.com/search-jobs/(JOBHERE),https://jobs.scjohnson.com/search-jobs/(JOBHERE),Consumer Goods
+BMW,,,
+Ferrari,,,
+Porsche,https://jobs.porsche.com/index.php?ac=search_result&search_criterion_keyword%5B%5D=(JOBHERE),https://jobs.porsche.com/index.php?ac=search_result&search_criterion_keyword%5B%5D=(JOBHERE),Automotive
+P & G,https://www.pgcareers.com/search-jobs?k=(JOBHERE),https://www.pgcareers.com/search-jobs?k=(JOBHERE),Consumer Goods
+Eli Lilly,https://careers.lilly.com/search-jobs/(JOBHERE),https://careers.lilly.com/search-jobs/(JOBHERE),Medical
+McKinsey,https://www.mckinsey.com/careers/search-jobs?query=(JOBHERE),https://www.mckinsey.com/careers/search-jobs?query=(JOBHERE),Consulting
+Bain,https://csscareers-bain.icims.com/jobs/search?ss=1&searchKeyword=(JOBHERE),https://csscareers-bain.icims.com/jobs/search?ss=1&searchKeyword=(JOBHERE),Consulting
+BCG,https://talent.bcg.com/en_US/apply/SearchJobs/(JOBHERE),https://talent.bcg.com/en_US/apply/SearchJobs/(JOBHERE),Consulting
+Amazon,https://www.amazon.jobs/en/search?base_query=(JOBHERE)&loc_query=,https://www.amazon.jobs/en/search?base_query=(JOBHERE)&loc_query=,Tech
+Strkyer,https://careers.stryker.com/job-search-results/?keyword=(JOBHERE),https://careers.stryker.com/job-search-results/?keyword=(JOBHERE),Medical
+Lockheed Martin,https://www.lockheedmartinjobs.com/search-jobs/(JOBHERE),https://www.lockheedmartinjobs.com/search-jobs/(JOBHERE),Aero
+Raytheon,https://jobs.rtx.com/search-jobs/(JOBHERE),https://jobs.rtx.com/search-jobs/(JOBHERE),Aero
+Northrop Grumman,https://www.northropgrumman.com/jobs/?search=(JOBHERE),https://www.northropgrumman.com/jobs/?search=(JOBHERE),Aero
+Blue Origin,https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin?q=(JOBHERE),https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin?q=(JOBHERE),Aero
+Caterpillar,https://careers.caterpillar.com/en/jobs/?searchTerm=(JOBHERE)&pagesize=20#results,https://careers.caterpillar.com/en/jobs/?searchTerm=(JOBHERE)&pagesize=20#results,Automotive
+Grainger,https://jobs.grainger.com/search/?createNewAlert=false&q=(JOBHERE)&locationsearch=,https://jobs.grainger.com/search/?createNewAlert=false&q=(JOBHERE)&locationsearch=,Automotive
+Fedex,https://careers.fedex.com/fedex/jobs?keywords=(JOBHERE),https://careers.fedex.com/fedex/jobs?keywords=(JOBHERE),
+Intel,https://jobs.intel.com/page/show/search-results#q=(JOBHERE)&t=Jobs&sort=relevancy&layout=table,https://jobs.intel.com/page/show/search-results#q=(JOBHERE)&t=Jobs&sort=relevancy&layout=table,Tech
+IBM,https://www.ibm.com/employment/#jobs?%23jobs=&job-search=(JOBHERE),https://www.ibm.com/employment/#jobs?%23jobs=&job-search=(JOBHERE),Tech
+JP Morgan,https://careers.jpmorgan.com/global/en/students/programs?deeplink=multiTabNav1::tab3&search=(JOBHERE)&tags=,https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=(JOBHERE),Consulting
+Goldman Sachs,,https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?keyword=(JOBHERE)&sortBy=POSTING_DATES_DESC,Consulting
+Deliotte,https://apply.deloitte.com/careers/SearchJobs/(JOBHERE)?sort=relevancy,https://apply.deloitte.com/careers/SearchJobs/(JOBHERE)?sort=relevancy,Consulting
+Hulu,,,Tech
+HBO,https://warnermediacareers.com/global/en/search-results?keywords=(JOBHERE),https://warnermediacareers.com/global/en/search-results?keywords=(JOBHERE),Tech
+Gulfstream Aerospace,https://careers.gulfstream.com/search/?createNewAlert=false&q=(JOBHERE)&locationsearch=,https://careers.gulfstream.com/search/?createNewAlert=false&q=(JOBHERE)&locationsearch=,Aero
+Target,"https://jobs.target.com/search-jobs/(JOBHERE)/1118/1?fl=6252001,1269750","https://jobs.target.com/search-jobs/(JOBHERE)/1118/1?fl=6252001,1269750",Consumer Goods
+Walmart,,,
+Kroger,https://kroger.eightfold.ai/careers?pid=10032892&query=(JOBHERE)&domain=kroger.com&triggerGoButton=false,https://kroger.eightfold.ai/careers?pid=10032892&query=(JOBHERE)&domain=kroger.com&triggerGoButton=false,Consumer Goods
+Meijer,,,Consumer Goods

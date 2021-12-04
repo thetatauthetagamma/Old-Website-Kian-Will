@@ -1,0 +1,186 @@
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-crawler-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2vh 0;
+    border-bottom: solid black 2px;
+
+    .job-header-text{
+        color: #883a3a;
+        font-weight: bolder;
+        font-size: 4em;
+    }
+}
+
+.job-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.columns {
+    width: 40vw;
+    display: flex;
+}
+
+.col-1 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 10vw;
+    border-right: solid black 2px;
+
+    p {
+        color: #883a3a;
+        font-size: 2em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .industry-list-name {
+        margin-right: 2%;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+}
+
+.col-2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .search-form {
+      margin-top: 1vh;
+
+        .search-bar {
+            width: 30vw;
+            height: 4vh;
+            border: solid black;
+            border-radius: 2vh;
+            text-align: center;
+            overflow: scroll;
+            margin-right: 1vw;
+        }
+
+        .search-button {
+            height: 4vh;
+            border: solid black;
+            border-radius: 2vh;
+        }
+    }
+
+    .job-results {
+        width: 100%;
+        padding-right: 1.5vw;
+        height: 47vh;
+        overflow-y: scroll;
+        text-align: center;
+        
+        a {
+          text-decoration: none;
+        }
+
+        .job-card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: black;
+          color: white;
+          height: 5.5vh;
+          font-size: 1.5em;
+          font-weight: bold;
+          margin-bottom: 1vh;
+          border-radius: 45px;
+        }
+    }
+
+    .intern-fulltime {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        .toggle-info {
+            margin-right: 1vw;
+            font-size: 1.5em;
+        }
+    }
+    
+    
+}
+
+.industry-sliders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* The switch - the box around the slider - FROM W3SCHOOLS*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FBC901;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #883a3a;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #883a3a;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
