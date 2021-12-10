@@ -81,6 +81,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "ahuangg",
+        "firstname": "Anna",
+        "lastname": "Huang",
+        "roll": "492",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "ajfrantz",
         "firstname": "AJ",
         "lastname": "Frantz",
@@ -141,15 +150,6 @@
         "roll": "239",
         "verified": "0",
         "email": "albanka@umich.edu",
-        "img": "images/member-profiles/default_profile_img.jpg"
-    },
-    {
-        "userid": "alexiosa",
-        "firstname": "Alexios",
-        "lastname": "Avrassoglou",
-        "roll": "471",
-        "verified": "0",
-        "email": "alexiosa@umich.edu",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -306,6 +306,24 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "arodi",
+        "firstname": "Allison",
+        "lastname": "Rodi",
+        "roll": "490",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "artemiss",
+        "firstname": "Artemis",
+        "lastname": "Siavelis",
+        "roll": "498",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "asda",
         "firstname": "Ashley",
         "lastname": "David",
@@ -411,6 +429,15 @@
         "roll": "161",
         "verified": "0",
         "email": "bethanyg27@gmail.com",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "bgerlach",
+        "firstname": "Bryn",
+        "lastname": "Gerlach",
+        "roll": "489",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -726,6 +753,15 @@
         "roll": "217",
         "verified": "0",
         "email": "csaucier@umich.edu",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "csnyders",
+        "firstname": "Chloe",
+        "lastname": "Snyders",
+        "roll": "485",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -1050,6 +1086,24 @@
         "roll": "474",
         "verified": "0",
         "email": "edegraw@umich.edu",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "edenmax",
+        "firstname": "Eden",
+        "lastname": "Max",
+        "roll": "496",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "eforesi",
+        "firstname": "Emma",
+        "lastname": "Foresi",
+        "roll": "491",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -1494,6 +1548,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "iatrides",
+        "firstname": "Alexia",
+        "lastname": "Iatrides",
+        "roll": "488",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "ipedraza",
         "firstname": "Isabella",
         "lastname": "Pedraza",
@@ -1590,15 +1653,6 @@
         "roll": "3",
         "verified": "0",
         "email": "jbroggio@hotmail.com",
-        "img": "images/member-profiles/default_profile_img.jpg"
-    },
-    {
-        "userid": "jcasero",
-        "firstname": "Jorge",
-        "lastname": "Casero",
-        "roll": "457",
-        "verified": "0",
-        "email": "jcasero@umich.edu",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -2247,6 +2301,15 @@
         "roll": "125",
         "verified": "0",
         "email": "kjschill@umich.edu",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "kkaya",
+        "firstname": "Kevin",
+        "lastname": "Kaya",
+        "roll": "483",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -3015,6 +3078,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "npunshi",
+        "firstname": "Nikhil",
+        "lastname": "Punshi",
+        "roll": "494",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "nricci",
         "firstname": "Nick",
         "lastname": "Ricci",
@@ -3222,6 +3294,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "rayruss",
+        "firstname": "Rachel",
+        "lastname": "Russell",
+        "roll": "482",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "rbiswas",
         "firstname": "Rohan",
         "lastname": "Biswas",
@@ -3354,6 +3435,24 @@
         "roll": "34",
         "verified": "0",
         "email": "mracer314@yahoo.com",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "rjunebug",
+        "firstname": "Arjun",
+        "lastname": "Ganesh",
+        "roll": "486",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "rketsdev",
+        "firstname": "Reese",
+        "lastname": "Ketsdever",
+        "roll": "495",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -3537,6 +3636,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "samrod",
+        "firstname": "Sam",
+        "lastname": "Rodriguez",
+        "roll": "487",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "samron",
         "firstname": "Sam",
         "lastname": "Rondeau",
@@ -3618,6 +3726,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "schandru",
+        "firstname": "Shashank",
+        "lastname": "Chandru",
+        "roll": "484",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "schknapp",
         "firstname": "Schuyler",
         "lastname": "Knapp",
@@ -3633,6 +3750,15 @@
         "roll": "75",
         "verified": "0",
         "email": "adam.j.schrems@gmail.com",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "seande",
+        "firstname": "Sydney",
+        "lastname": "Anderson",
+        "roll": "481",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -3933,6 +4059,15 @@
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
+        "userid": "tlhaddad",
+        "firstname": "Theo",
+        "lastname": "Haddad",
+        "roll": "497",
+        "verified": "0",
+        "email": "",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
         "userid": "tmidde",
         "firstname": "Tarun",
         "lastname": "Midde",
@@ -3948,6 +4083,15 @@
         "roll": "16",
         "verified": "0",
         "email": "todd_moilanen@hotmail.com",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "toppingm",
+        "firstname": "Max",
+        "lastname": "Topping",
+        "roll": "480",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
@@ -4155,6 +4299,15 @@
         "roll": "241",
         "verified": "0",
         "email": "zepeda@umich.edu",
+        "img": "images/member-profiles/default_profile_img.jpg"
+    },
+    {
+        "userid": "zlataric",
+        "firstname": "Nina",
+        "lastname": "Zlataric",
+        "roll": "493",
+        "verified": "0",
+        "email": "",
         "img": "images/member-profiles/default_profile_img.jpg"
     },
     {
