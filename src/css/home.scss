@@ -65,12 +65,13 @@
 }
 
 .carousel-text {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+    // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    //     1px 1px 0 #000;
     z-index: 1;
     color: white;
     font-size: 8em;
-    opacity: 0.8;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    // opacity: 0.8;
     position: absolute;
     top: 46%;
     left: 50%;
