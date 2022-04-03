@@ -5,11 +5,13 @@ import { useSpring, animated } from "react-spring";
 import moment from "moment";
 import "../../css/rush.scss";
 
+// www.thetatau-umich.org/#/rush
 export default function Rush() {
     let rushEvents = [];
     let eventNumber = 0;
     const currentDate = moment().startOf("day");
 
+    // Animation to fade in the page
     const fadeIn = useSpring({
         from: {
             opacity: 0,
@@ -20,8 +22,10 @@ export default function Rush() {
         config: { duration: 750 },
     });
 
+    // Adding in the rush events to appear on the page (if applicable)
     if (rushInformation["activeRush"]) {
         rushInformation["rushEvents"].map((event) => {
+            // Add upcoming events to the rushEvents list (past events will not appear automatically)
             if (currentDate.diff(moment(event["date"], "MMM Do")) <= 0) {
                 rushEvents.push(
                     <div className="rush-event-card">
@@ -61,6 +65,7 @@ export default function Rush() {
                 );
             }
 
+            // Getting the color of the rush event card
             eventNumber = (eventNumber + 1) % 4;
         });
     }
@@ -69,6 +74,7 @@ export default function Rush() {
         <React.Fragment>
             <div className="rush">
                 <div className="container-fluid">
+                    { /* Header */ }
                     <animated.h4 className="tht-purpose" style={fadeIn}>
                         THE PURPOSE OF THETA TAU IS TO DEVELOP AND MAINTAIN A
                         HIGH STANDARD OF PROFESSIONAL INTEREST AMONG ITS MEMBERS
@@ -76,52 +82,40 @@ export default function Rush() {
                         FELLOWSHIP.
                     </animated.h4>
 
+                    { /* Active Rush Information */ }
                     <animated.div
                         className="container rush-info-container"
                         style={fadeIn}
                     >
-                        {rushInformation["activeRush"] ? (
+                        {rushEvents.length ? (
                             <div className="rush-container">
-                                <b className="header join-rush-header">
-                                    Come join us for our{" "}
-                                    {rushInformation["rushSemester"]}
-                                    &nbsp;
-                                    {rushInformation["rushYear"]}&nbsp;rush!
-                                </b>
+                                <a
+                                    className="interest-link"
+                                    href={rushInformation["rushLink"]}
+                                >
+                                    <b className="header join-rush-header">
+                                        Come join us for our{" "}
+                                        {rushInformation["rushSemester"]}
+                                        &nbsp;
+                                        {rushInformation["rushYear"]}&nbsp;rush!
+                                    </b>
+                                </a>
 
-                                {rushInformation["rushLink"] ? (
-                                    <h3 className="responsive-header interest-form">
-                                        <a
-                                            className="interest-link"
-                                            href="https://docs.google.com/forms/d/1tu8VgUohbQV8i7VScbGJMavQfFBopxCaLbfLEDBu2Uk/edit"
-                                        >
-                                            Click here to fill out our interest
-                                            form
-                                        </a>
-                                    </h3>
-                                ) : null}
-
-                                <img
-                                    className="rush-card rush-poster"
-                                    src={rush_card}
-                                    alt="rush_card"
-                                ></img>
-
-                                <br className="rush-spacing" />
                                 <br className="rush-spacing" />
 
                                 <div className="rush-events">{rushEvents}</div>
                             </div>
                         ) : (
                             <React.Fragment>
+                                { /* No Rush Events Display */ }
                                 <div className="alert alert-info no-rush-container">
                                     <b className="no-rush-alert">
                                         Unfortunately, our rush season has ended
                                         for the current semester.
                                         <br />
                                         <br />
-                                        Feel free to check out our Instagram and
-                                        Facebook page for any updates!
+                                        Feel free to check out our Instagram
+                                        page for any updates!
                                         <br />
                                         <br />
                                         Typically, rush happens in the beginning
