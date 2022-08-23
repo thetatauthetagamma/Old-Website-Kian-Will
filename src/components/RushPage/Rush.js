@@ -25,9 +25,9 @@ export default function Rush() {
     // Adding in the rush events to appear on the page (if applicable)
     if (rushInformation["activeRush"]) {
         rushInformation["rushEvents"].map((event) => {
-            // Add upcoming events to the rushEvents list (past events will not appear automatically)
-            if (currentDate.diff(moment(event["date"], "MMM Do")) <= 0) {
-                rushEvents.push(
+            // Displaying all events
+            for (let i = 0, len = rushEvents.length, i < len; i++) {
+                  rushEvents.push(
                     <div className="rush-event-card">
                         <div className={`event-${eventNumber}`}>
                             <div className="rush-title">
@@ -68,8 +68,7 @@ export default function Rush() {
             // Getting the color of the rush event card
             eventNumber = (eventNumber + 1) % 4;
         });
-    }
-
+    }                  
     return (
         <React.Fragment>
             <div className="rush">
