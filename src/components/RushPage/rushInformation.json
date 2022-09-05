@@ -6,7 +6,7 @@
     "rushEvents": [
         {
             "name": "Central Campus Info Session",
-            "date": "Sept 2nd",
+            "date": "Sep 2nd",
             "startTime": "5:00",
             "endTime": "7:00pm",
             "location": "League - Koessler Room (3rd Floor)",
@@ -14,7 +14,7 @@
         },
         {
             "name": "North Campus Info Session",
-            "date": "Sept 4th",
+            "date": "Sep 4th",
             "startTime": "4:00",
             "endTime": "6:00pm",
             "location": "EECS 1311",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Cider & Donuts",
-            "date": "Sept 5th",
+            "date": "Sep 5th",
             "startTime": "5:00",
             "endTime": "7:00 pm",
             "location": "Elbel Field",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Professional Development Presentation",
-            "date": "Sept 7th",
+            "date": "Sep 7th",
             "startTime": "6:00",
             "endTime": "8:00 pm",
             "location": "EECS 1200",
@@ -39,7 +39,7 @@
         },
         {
             "name": "Philanthropy Event",
-            "date": "Sept 8th",
+            "date": "Sep 8th",
             "startTime": "5:00",
             "endTime": "7:00pm",
             "location": "The Diag",
