@@ -110,17 +110,16 @@ export default function Rush() {
                                 { /* No Rush Events Display */ }
                                 <div className="alert alert-info no-rush-container">
                                     <b className="no-rush-alert">
-                                        Unfortunately, our rush season has ended
-                                        for the current semester.
+                                        Cider & Donuts
+                                        Monday, September 5th, 5-7pm @ Elbel Field
                                         <br />
                                         <br />
-                                        Feel free to check out our Instagram
-                                        page for any updates!
+                                        P.D. Overview 
+                                        Wednesday, September 7th, 6-8pm @ EECS 1200
                                         <br />
                                         <br />
-                                        Typically, rush happens in the beginning
-                                        of the semester
-                                        so&nbsp;make&nbsp;sure&nbsp;to&nbsp;check&nbsp;us&nbsp;out&nbsp;then~
+                                        Philanthropy Event
+                                        Thursday, September 8th, 5-7pm @ the Diag
                                     </b>
                                 </div>
                             </React.Fragment>
